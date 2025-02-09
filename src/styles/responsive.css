@@ -1,0 +1,107 @@
+/* Responsive styles */
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-baseline {
+  align-items: baseline;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    gap: 0.5rem;
+  }
+
+  .flex-mobile-column {
+    flex-direction: column;
+  }
+
+  /* Mobile-specific styles */
+  .poem-container {
+    padding: 1rem 1.25rem !important;
+  }
+
+  .poem-header {
+    padding: 0.5rem 1.25rem !important;
+  }
+
+  .poem-title-container {
+    gap: 0.5rem !important;
+  }
+
+  .chinese-title {
+    font-size: 1.35rem !important;
+  }
+
+  .english-title {
+    font-size: 1.1rem !important;
+  }
+
+  .poem-meta {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    align-items: flex-start !important;
+  }
+
+  /* Stacked verses layout for mobile */
+  .verses-container {
+    flex-direction: column !important;
+    padding: 2rem 1.5rem !important;
+    gap: 2rem !important;
+  }
+
+  .center-divider {
+    width: 100% !important;
+    height: 1px !important;
+    margin: 1.5rem 0 !important;
+    background: rgba(139, 69, 19, 0.1) !important;
+  }
+
+  .verse-container {
+    gap: 0.75rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .chinese-verses,
+  .english-verses {
+    gap: 1.5rem !important;
+    width: 100% !important;
+  }
+
+  .verse-chinese {
+    font-size: 1.5rem !important;
+    text-align: left !important;
+    writing-mode: horizontal-tb !important;
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .verse-pinyin {
+    font-size: 0.9rem !important;
+    text-align: left !important;
+  }
+
+  .verse-english {
+    font-size: 1rem !important;
+    opacity: 0.85 !important;
+    text-align: left !important;
+  }
+
+  .navigation-buttons {
+    padding: 0.75rem !important;
+    gap: 0.75rem !important;
+  }
+}
+
+.chinese-title {
+  font-family: var(--font-chinese);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  line-height: 1.2;
+}

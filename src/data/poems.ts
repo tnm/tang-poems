@@ -1369,4 +1369,141 @@ export const poems: Poem[] = [
       },
     ],
   },
+  {
+    id: 'night-of-the-fifteenth',
+    title: {
+      chinese: '正月十五夜',
+      pinyin: 'Zhèng Yuè Shíwǔ Yè',
+      english: 'Night of the Fifteenth',
+    },
+    author: {
+      chinese: '蘇味道（或唐玄宗）',
+      pinyin: 'Sū Wèidào (huò Táng Xuánzōng)',
+      english: 'Su Weidao (or Emperor Xuanzong)',
+      url: 'https://zh.wikipedia.org/wiki/蘇味道',
+    },
+    form: '七言律詩',
+    formEnglish: 'Seven-character regulated verse',
+    url: '',
+    verses: [
+      {
+        chinese: '火樹銀花合',
+        pinyin: 'Huǒ shù yín huā hé',
+        english: 'Fire trees and silver flowers join',
+      },
+      {
+        chinese: '星橋鐵鎖開',
+        pinyin: 'Xīng qiáo tiě suǒ kāi',
+        english: 'Starry bridges, iron locks thrown open',
+      },
+      {
+        chinese: '暗塵隨馬去',
+        pinyin: 'Àn chén suí mǎ qù',
+        english: 'Night dust follows the horses away',
+      },
+      {
+        chinese: '明月逐人來',
+        pinyin: 'Míng yuè zhú rén lái',
+        english: 'The bright moon pursues the revelers',
+      },
+      {
+        chinese: '遊妓皆薔薇',
+        pinyin: 'Yóu jì jiē qiáng wéi',
+        english: 'Courtesans wander, all in rose-like finery',
+      },
+      {
+        chinese: '行歌盡落梅',
+        pinyin: 'Xíng gē jìn luò méi',
+        english: 'Their singing drifts like falling plum blossoms',
+      },
+      {
+        chinese: '金吾不禁夜',
+        pinyin: 'Jīn wú bù jìn yè',
+        english: 'The guards do not forbid the night',
+      },
+      {
+        chinese: '玉漏莫相催',
+        pinyin: 'Yù lòu mò xiāng cuī',
+        english: 'Let not the jade water clock hurry the hours away',
+      },
+    ],
+  },
+  {
+    id: 'shangyuan-night',
+    title: {
+      chinese: '上元夜',
+      pinyin: 'Shàng Yuán Yè',
+      english: 'Night of the Shangyuan Festival',
+    },
+    author: {
+      chinese: '崔液',
+      pinyin: 'Cuī Yè',
+      english: 'Cui Ye (also romanized as Cui Tao)',
+      url: '',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: '',
+    verses: [
+      {
+        chinese: '玉漏銀壺且莫催',
+        pinyin: 'Yù lòu yín hú qiě mò cuī',
+        english: 'Let the jade clepsydra and silver urn not press the hours',
+      },
+      {
+        chinese: '鐵關金鎖徹明開',
+        pinyin: 'Tiě guān jīn suǒ chè míng kāi',
+        english: 'Iron gates, golden locks stand open till dawn',
+      },
+      {
+        chinese: '誰家見月能閒坐',
+        pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
+        english: 'Who, seeing the moon, could remain quietly at home?',
+      },
+      {
+        chinese: '何處聞燈不看來',
+        pinyin: 'Hé chù wén dēng bù kàn lái',
+        english: 'Where lanterns glow, who would not go to watch?',
+      },
+    ],
+  },
+  {
+    id: 'lanterns-on-the-fifteenth',
+    title: {
+      chinese: '正月十五夜燈',
+      pinyin: 'Zhèng Yuè Shíwǔ Yè Dēng',
+      english: 'Lanterns on the Night of the Fifteenth',
+    },
+    author: {
+      chinese: '張祜',
+      pinyin: 'Zhāng Hù',
+      english: 'Zhang Hu',
+      url: '',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: '',
+    verses: [
+      {
+        chinese: '千門開鎖萬燈明',
+        pinyin: 'Qiān mén kāi suǒ wàn dēng míng',
+        english: 'A thousand gates unlocked, ten thousand lanterns bright',
+      },
+      {
+        chinese: '正月中旬動帝京',
+        pinyin: 'Zhèng yuè zhōng xún dòng dì jīng',
+        english: 'In mid-first month, the imperial capital stirs',
+      },
+      {
+        chinese: '三百內人連袖舞',
+        pinyin: 'Sān bǎi nèi rén lián xiù wǔ',
+        english: 'Three hundred palace ladies dance, sleeves linked',
+      },
+      {
+        chinese: '一聲菩薩萬人驚',
+        pinyin: 'Yī shēng pú sà wàn rén jīng',
+        english: 'One cry of “Bodhisattva!” startles ten thousand souls',
+      },
+    ],
+  },
 ];

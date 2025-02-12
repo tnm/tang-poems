@@ -1377,9 +1377,9 @@ export const poems: Poem[] = [
       english: 'Night of the Fifteenth',
     },
     author: {
-      chinese: '蘇味道（或唐玄宗）',
-      pinyin: 'Sū Wèidào (huò Táng Xuánzōng)',
-      english: 'Su Weidao (or Emperor Xuanzong)',
+      chinese: '蘇味道',
+      pinyin: 'Sū Wèidào',
+      english: 'Su Weidao)',
       url: 'https://zh.wikipedia.org/wiki/蘇味道',
     },
     form: '七言律詩',
@@ -1438,7 +1438,7 @@ export const poems: Poem[] = [
     author: {
       chinese: '崔液',
       pinyin: 'Cuī Yè',
-      english: 'Cui Ye (also romanized as Cui Tao)',
+      english: 'Cui Ye',
       url: '',
     },
     form: '七言絕句',
@@ -1448,12 +1448,12 @@ export const poems: Poem[] = [
       {
         chinese: '玉漏銀壺且莫催',
         pinyin: 'Yù lòu yín hú qiě mò cuī',
-        english: 'Let the jade clepsydra and silver urn not press the hours',
+        english: 'Let the jade water clock and silver urn not press the hours',
       },
       {
         chinese: '鐵關金鎖徹明開',
         pinyin: 'Tiě guān jīn suǒ chè míng kāi',
-        english: 'Iron gates, golden locks stand open till dawn',
+        english: 'Iron gates and golden locks stand open till dawn',
       },
       {
         chinese: '誰家見月能閒坐',

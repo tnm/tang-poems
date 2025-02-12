@@ -979,4 +979,394 @@ export const poems: Poem[] = [
       },
     ],
   },
+  {
+    id: 'jiangnan-spring',
+    title: {
+      chinese: '江南春',
+      pinyin: 'Jiāng Nán Chūn',
+      english: 'Jiangnan Spring',
+    },
+    author: {
+      chinese: '杜牧',
+      pinyin: 'Dù Mù',
+      english: 'Du Mu',
+      url: 'https://en.wikipedia.org/wiki/Du_Mu',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/江南春_(杜牧)',
+    verses: [
+      {
+        chinese: '千里鶯啼綠映紅',
+        pinyin: 'Qiān lǐ yīng tí lǜ yìng hóng',
+        english: 'For a thousand miles, orioles sing amid green and red,',
+      },
+      {
+        chinese: '水村山郭酒旗風',
+        pinyin: 'Shuǐ cūn shān guō jiǔ qí fēng',
+        english: 'Wine flags flutter in the breeze by riverside towns and hills.',
+      },
+      {
+        chinese: '南朝四百八十寺',
+        pinyin: 'Nán cháo sì bǎi bā shí sì',
+        english: 'Four hundred and eighty temples from the Southern Dynasties,',
+      },
+      {
+        chinese: '多少樓臺煙雨中',
+        pinyin: 'Duō shǎo lóu tái yān yǔ zhōng',
+        english: 'How many towers and terraces lie in mist and drizzling rain?',
+      },
+    ],
+  },
+  {
+    id: 'spending-the-night-on-jiande-river',
+    title: {
+      chinese: '宿建德江',
+      pinyin: 'Sù Jiàndé Jiāng',
+      english: 'Spending the Night on the Jiande River',
+    },
+    author: {
+      chinese: '孟浩然',
+      pinyin: 'Mèng Hàorán',
+      english: 'Meng Haoran',
+      url: 'https://en.wikipedia.org/wiki/Meng_Haoran',
+    },
+    form: '五言絕句',
+    formEnglish: 'Five-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/宿建德江',
+    verses: [
+      {
+        chinese: '移舟泊煙渚',
+        pinyin: 'Yí zhōu bó yān zhǔ',
+        english: 'I move my boat and moor by a misty islet,',
+      },
+      {
+        chinese: '日暮客愁新',
+        pinyin: 'Rì mù kè chóu xīn',
+        english: 'At dusk, the traveler’s sorrow grows anew.',
+      },
+      {
+        chinese: '野曠天低樹',
+        pinyin: 'Yě kuàng tiān dī shù',
+        english: 'Vast the wilds, the sky hangs low upon the trees;',
+      },
+      {
+        chinese: '江清月近人',
+        pinyin: 'Jiāng qīng yuè jìn rén',
+        english: 'In the clear river, the moon seems close at hand.',
+      },
+    ],
+  },
+  {
+    id: 'in-the-bamboo-grove',
+    title: {
+      chinese: '竹里館',
+      pinyin: 'Zhú Lǐ Guǎn',
+      english: 'In the Bamboo Grove',
+    },
+    author: {
+      chinese: '王維',
+      pinyin: 'Wáng Wéi',
+      english: 'Wang Wei',
+      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
+    },
+    form: '五言絕句',
+    formEnglish: 'Five-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/竹里館',
+    verses: [
+      {
+        chinese: '獨坐幽篁裡',
+        pinyin: 'Dú zuò yōu huáng lǐ',
+        english: 'I sit alone within the quiet bamboo grove,',
+      },
+      {
+        chinese: '彈琴復長嘯',
+        pinyin: 'Tán qín fù cháng xiào',
+        english: 'Strumming my lute, then whistling long.',
+      },
+      {
+        chinese: '深林人不知',
+        pinyin: 'Shēn lín rén bù zhī',
+        english: 'In the deep forest, no one knows I’m here—',
+      },
+      {
+        chinese: '明月來相照',
+        pinyin: 'Míng yuè lái xiāng zhào',
+        english: 'The bright moon arrives to shine on me.',
+      },
+    ],
+  },
+  {
+    id: 'deer-enclosure',
+    title: {
+      chinese: '鹿柴',
+      pinyin: 'Lù Chái',
+      english: 'Deer Enclosure',
+    },
+    author: {
+      chinese: '王維',
+      pinyin: 'Wáng Wéi',
+      english: 'Wang Wei',
+      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
+    },
+    form: '五言絕句',
+    formEnglish: 'Five-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/鹿柴_(王維)',
+    verses: [
+      {
+        chinese: '空山不見人',
+        pinyin: 'Kōng shān bù jiàn rén',
+        english: 'In the empty mountains, no one is seen,',
+      },
+      {
+        chinese: '但聞人語響',
+        pinyin: 'Dàn wén rén yǔ xiǎng',
+        english: 'Yet faint voices echo on the air.',
+      },
+      {
+        chinese: '返景入深林',
+        pinyin: 'Fǎn jǐng rù shēn lín',
+        english: 'Sunlight, returning, enters the deep forest,',
+      },
+      {
+        chinese: '復照青苔上',
+        pinyin: 'Fù zhào qīng tái shàng',
+        english: 'And shines again upon the green moss.',
+      },
+    ],
+  },
+  {
+    id: 'viewing-waterfall-at-mount-lu',
+    title: {
+      chinese: '望廬山瀑布',
+      pinyin: 'Wàng Lú Shān Pù Bù',
+      english: 'Viewing the Waterfall at Mount Lu',
+    },
+    author: {
+      chinese: '李白',
+      pinyin: 'Lǐ Bái',
+      english: 'Li Bai',
+      url: 'https://en.wikipedia.org/wiki/Li_Bai',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/望廬山瀑布',
+    verses: [
+      {
+        chinese: '日照香爐生紫煙',
+        pinyin: 'Rì zhào xiāng lú shēng zǐ yān',
+        english: 'Incense Burner Peak glows with purple mist in sunlight,',
+      },
+      {
+        chinese: '遙看瀑布掛前川',
+        pinyin: 'Yáo kàn pù bù guà qián chuān',
+        english: 'From afar, I see the waterfall hanging before the stream.',
+      },
+      {
+        chinese: '飛流直下三千尺',
+        pinyin: 'Fēi liú zhí xià sān qiān chǐ',
+        english: 'Its torrent pours down three thousand feet,',
+      },
+      {
+        chinese: '疑是銀河落九天',
+        pinyin: 'Yí shì yín hé luò jiǔ tiān',
+        english: 'As though the Milky Way were falling from heaven.',
+      },
+    ],
+  },
+  {
+    id: 'grasses',
+    title: {
+      chinese: '賦得古原草送別',
+      pinyin: 'Fù Dé Gǔ Yuán Cǎo Sòng Bié',
+      english: 'Grasses',
+    },
+    author: {
+      chinese: '白居易',
+      pinyin: 'Bái Jūyì',
+      english: 'Bai Juyi',
+      url: 'https://en.wikipedia.org/wiki/Bai_Juyi',
+    },
+    form: '五言絕句',
+    formEnglish: 'Five-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/賦得古原草送別',
+    verses: [
+      {
+        chinese: '離離原上草',
+        pinyin: 'Lí lí yuán shàng cǎo',
+        english: 'Lush, lush, the grass upon the ancient plain,',
+      },
+      {
+        chinese: '一歲一枯榮',
+        pinyin: 'Yī suì yī kū róng',
+        english: 'Year by year, it withers and flourishes anew.',
+      },
+      {
+        chinese: '野火燒不盡',
+        pinyin: 'Yě huǒ shāo bù jìn',
+        english: 'Though wildfires burn, they cannot consume it,',
+      },
+      {
+        chinese: '春風吹又生',
+        pinyin: 'Chūn fēng chuī yòu shēng',
+        english: 'For spring winds blow, and it grows again.',
+      },
+    ],
+  },
+  {
+    id: 'red-cliff-du-mu',
+    title: {
+      chinese: '赤壁',
+      pinyin: 'Chì Bì',
+      english: 'Red Cliff',
+    },
+    author: {
+      chinese: '杜牧',
+      pinyin: 'Dù Mù',
+      english: 'Du Mu',
+      url: 'https://en.wikipedia.org/wiki/Du_Mu',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/赤壁_(杜牧)',
+    verses: [
+      {
+        chinese: '折戟沈沙鐵未銷',
+        pinyin: 'Zhé jǐ chén shā tiě wèi xiāo',
+        english: 'A broken halberd sinks in the sand, its iron not yet corroded,',
+      },
+      {
+        chinese: '自將磨洗認前朝',
+        pinyin: 'Zì jiāng mó xǐ rèn qián cháo',
+        english: 'I scrub it clean, recalling a former dynasty.',
+      },
+      {
+        chinese: '東風不與周郎便',
+        pinyin: 'Dōng fēng bù yǔ Zhōu Láng biàn',
+        english: 'Had the east wind not favored Zhou Yu,',
+      },
+      {
+        chinese: '銅雀春深鎖二喬',
+        pinyin: 'Tóng què chūn shēn suǒ èr Qiáo',
+        english: 'Then the Bronze Sparrow Terrace would lock the Two Qiaos in spring.',
+      },
+    ],
+  },
+  {
+    id: 'song-of-liangzhou',
+    title: {
+      chinese: '涼州詞',
+      pinyin: 'Liáng Zhōu Cí',
+      english: 'A Song of Liangzhou',
+    },
+    author: {
+      chinese: '王翰',
+      pinyin: 'Wáng Hàn',
+      english: 'Wang Han',
+      url: 'https://en.wikipedia.org/wiki/Wang_Han_(Tang_dynasty)',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/涼州詞_(王翰)',
+    verses: [
+      {
+        chinese: '葡萄美酒夜光杯',
+        pinyin: 'Pú táo měi jiǔ yè guāng bēi',
+        english: 'In a gleaming cup, rich grape wine by night,',
+      },
+      {
+        chinese: '欲飲琵琶馬上催',
+        pinyin: 'Yù yǐn pípá mǎ shàng cuī',
+        english: 'We’re about to drink when pipa strings urge us onward.',
+      },
+      {
+        chinese: '醉臥沙場君莫笑',
+        pinyin: 'Zuì wò shā chǎng jūn mò xiào',
+        english: 'Do not laugh if we lie drunk on the battlefield—',
+      },
+      {
+        chinese: '古來征戰幾人回',
+        pinyin: 'Gǔ lái zhēng zhàn jǐ rén huí',
+        english: 'Since ancient times, few return from war.',
+      },
+    ],
+  },
+  {
+    id: 'early-departure-from-white-emperor-city',
+    title: {
+      chinese: '早發白帝城',
+      pinyin: 'Zǎo Fā Bái Dì Chéng',
+      english: 'Early Departure from White Emperor City',
+    },
+    author: {
+      chinese: '李白',
+      pinyin: 'Lǐ Bái',
+      english: 'Li Bai',
+      url: 'https://en.wikipedia.org/wiki/Li_Bai',
+    },
+    form: '七言絕句',
+    formEnglish: 'Seven-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/早發白帝城',
+    verses: [
+      {
+        chinese: '朝辭白帝彩雲間',
+        pinyin: 'Zhāo cí Bái Dì cǎi yún jiān',
+        english: 'At dawn, leaving White Emperor City in cloud-bright skies,',
+      },
+      {
+        chinese: '千里江陵一日還',
+        pinyin: 'Qiān lǐ Jiāng Líng yī rì huán',
+        english: 'In one day, I reach Jiangling a thousand miles away.',
+      },
+      {
+        chinese: '兩岸猿聲啼不住',
+        pinyin: 'Liǎng àn yuán shēng tí bù zhù',
+        english: 'Though monkeys cry endlessly along both banks,',
+      },
+      {
+        chinese: '輕舟已過萬重山',
+        pinyin: 'Qīng zhōu yǐ guò wàn chóng shān',
+        english: 'My little boat has sailed past countless mountains.',
+      },
+    ],
+  },
+  {
+    id: 'listening-to-a-monk-from-shu',
+    title: {
+      chinese: '聽蜀僧濬彈琴',
+      pinyin: 'Tīng Shǔ Sēng Jùn Tán Qín',
+      english: 'Listening to a Monk from Shu Playing the Lute',
+    },
+    author: {
+      chinese: '李白',
+      pinyin: 'Lǐ Bái',
+      english: 'Li Bai',
+      url: 'https://en.wikipedia.org/wiki/Li_Bai',
+    },
+    form: '五言絕句',
+    formEnglish: 'Five-character quatrain',
+    url: 'https://zh.wikisource.org/wiki/聽蜀僧濬彈琴',
+    verses: [
+      {
+        chinese: '蜀僧抱綠綺',
+        pinyin: 'Shǔ sēng bào lǜ qǐ',
+        english: 'A monk from Shu cradles his jade-green lute,',
+      },
+      {
+        chinese: '西下峨眉峰',
+        pinyin: 'Xī xià Éméi fēng',
+        english: 'Traveling down from lofty Emei in the west.',
+      },
+      {
+        chinese: '為我一揮手',
+        pinyin: 'Wèi wǒ yī huī shǒu',
+        english: 'He gives one sweeping chord for me—',
+      },
+      {
+        chinese: '如聽萬壑松',
+        pinyin: 'Rú tīng wàn hè sōng',
+        english: 'Like listening to pines in ten thousand ravines.',
+      },
+    ],
+  },
 ];

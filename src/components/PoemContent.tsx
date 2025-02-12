@@ -22,10 +22,11 @@ export default function PoemContent({ poem, showPinyin }: PoemContentProps) {
         {`
           @media (max-width: 768px) {
             .poem-container {
-              padding: 2rem 1rem;
+              padding: 1rem 0.5rem;
             }
             .verses-container {
-              padding: 2rem !important;
+              padding: 1rem !important;
+              width: 95% !important;
             }
           }
           

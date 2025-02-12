@@ -23,11 +23,14 @@
 
   /* Mobile-specific styles */
   .poem-container {
-    padding: 1rem 1.25rem !important;
+    padding: 0.75rem 0.5rem !important;
+    width: 100% !important;
+    max-width: none !important;
   }
 
   .poem-header {
-    padding: 0.5rem 1.25rem !important;
+    padding: 0.5rem 0.75rem !important;
+    width: 100% !important;
   }
 
   .poem-title-container {
@@ -39,7 +42,7 @@
   }
 
   .english-title {
-    font-size: 1.1rem !important;
+    font-size: 1.25rem !important;
   }
 
   .poem-meta {
@@ -51,25 +54,25 @@
   /* Stacked verses layout for mobile */
   .verses-container {
     flex-direction: column !important;
-    padding: 2rem 1.5rem !important;
-    gap: 2rem !important;
+    padding: 1rem 0.75rem !important;
+    gap: 1rem !important;
   }
 
   .center-divider {
     width: 100% !important;
     height: 1px !important;
-    margin: 1.5rem 0 !important;
+    margin: 0.75rem 0 !important;
     background: rgba(139, 69, 19, 0.1) !important;
   }
 
   .verse-container {
-    gap: 0.75rem !important;
-    margin-bottom: 1.5rem !important;
+    gap: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .chinese-verses,
   .english-verses {
-    gap: 1.5rem !important;
+    gap: 1rem !important;
     width: 100% !important;
   }
 
@@ -87,14 +90,45 @@
   }
 
   .verse-english {
-    font-size: 1rem !important;
-    opacity: 0.85 !important;
+    font-size: 1.2rem !important;
+    opacity: 0.9 !important;
     text-align: left !important;
+    line-height: 1.6 !important;
   }
 
   .navigation-buttons {
     padding: 0.75rem !important;
     gap: 0.75rem !important;
+  }
+
+  /* Table of contents mobile styles */
+  .search-controls {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 0.25rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .search-controls input,
+  .search-controls select {
+    width: 100% !important;
+    max-width: none !important;
+    min-width: none !important;
+    margin: 0 !important;
+  }
+
+  /* Poem grid layout for mobile */
+  .poem-grid {
+    grid-template-columns: minmax(calc(100% - 0.5rem), 1fr) !important;
+    gap: 1rem !important;
+    padding: 0 0.25rem !important;
+    width: 100% !important;
+  }
+
+  /* Results count alignment */
+  .results-count {
+    padding: 0 0.25rem !important;
+    margin-bottom: 1rem !important;
   }
 }
 

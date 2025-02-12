@@ -100,7 +100,10 @@ export default function TableOfContents() {
         style={{
           maxWidth: '1200px',
           margin: '0 auto',
-          padding: '1rem 2rem',
+          padding: '0.5rem',
+          '@media (min-width: 601px)': {
+            padding: '1rem 2rem',
+          } as ExtendedCSSProperties,
         }}
       >
         {/* Search Controls */}
@@ -206,6 +209,7 @@ export default function TableOfContents() {
 
         {/* Results count */}
         <div
+          className="results-count"
           style={{
             fontSize: '0.9rem',
             color: 'var(--color-text-secondary)',

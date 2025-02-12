@@ -1379,7 +1379,7 @@ export const poems: Poem[] = [
     author: {
       chinese: '蘇味道',
       pinyin: 'Sū Wèidào',
-      english: 'Su Weidao)',
+      english: 'Su Weidao',
       url: 'https://zh.wikipedia.org/wiki/蘇味道',
     },
     form: '七言律詩',

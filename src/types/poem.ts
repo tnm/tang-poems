@@ -1,19 +1,23 @@
+export interface ChineseText {
+  traditional: string;
+  simplified: string;
+  pinyin?: string;
+}
+
 export interface Poem {
   id: string;
   title: {
-    chinese: string;
+    chinese: ChineseText;
     english: string;
   };
   author: {
-    chinese: string;
+    chinese: ChineseText;
     english: string;
-    url: string;
   };
   verses: Array<{
-    chinese: string;
+    chinese: ChineseText;
     english: string;
-    pinyin?: string;
   }>;
-  form?: string;
+  form?: ChineseText;
   formEnglish?: string;
 }

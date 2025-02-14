@@ -1,61 +1,92 @@
-import { Poem } from '../types/poems';
+import { Poem } from '../types/poem';
 
 export const poems: Poem[] = [
   {
     id: 'spring-view',
     title: {
-      chinese: '春望',
-      pinyin: 'Chūn Wàng',
+      chinese: {
+        traditional: '春望',
+        simplified: '春望',
+        pinyin: 'Chūn Wàng',
+      },
       english: 'Spring View',
     },
     author: {
-      chinese: '杜甫',
-      pinyin: 'Dù Fǔ',
+      chinese: {
+        traditional: '杜甫',
+        simplified: '杜甫',
+        pinyin: 'Dù Fǔ',
+      },
       english: 'Du Fu',
-      url: 'https://en.wikipedia.org/wiki/Du_Fu',
     },
-    form: '五言律詩',
+    form: {
+      traditional: '五言律詩',
+      simplified: '五言律诗',
+    },
     formEnglish: 'Five-character regulated verse',
-    url: 'https://zh.wikipedia.org/wiki/春望',
     verses: [
       {
-        chinese: '國破山河在',
-        pinyin: 'Guó pò shān hé zài',
-        english: 'The nation shattered, mountains and rivers remain',
+        chinese: {
+          traditional: '國破山河在',
+          simplified: '国破山河在',
+          pinyin: 'Guó pò shān hé zài',
+        },
+        english: 'The nation is broken, but mountains and rivers remain',
       },
       {
-        chinese: '城春草木深',
-        pinyin: 'Chéng chūn cǎo mù shēn',
-        english: 'City in spring, grass and trees grow deep',
+        chinese: {
+          traditional: '城春草木深',
+          simplified: '城春草木深',
+          pinyin: 'Chéng chūn cǎo mù shēn',
+        },
+        english: 'In the city, spring grass grows thick',
       },
       {
-        chinese: '感時花濺淚',
-        pinyin: 'Gǎn shí huā jiàn lèi',
-        english: 'Moved by the moment, flowers splash tears',
+        chinese: {
+          traditional: '感時花濺淚',
+          simplified: '感时花溅泪',
+          pinyin: 'Gǎn shí huā jiàn lèi',
+        },
+        english: 'Moved by the moment, flowers splash with tears',
       },
       {
-        chinese: '恨別鳥驚心',
-        pinyin: 'Hèn bié niǎo jīng xīn',
-        english: 'Grieving parting, birds startle the heart',
+        chinese: {
+          traditional: '恨別鳥驚心',
+          simplified: '恨别鸟惊心',
+          pinyin: 'Hèn bié niǎo jīng xīn',
+        },
+        english: 'Grieving at parting, birds startle the heart',
       },
       {
-        chinese: '烽火連三月',
-        pinyin: 'Fēng huǒ lián sān yuè',
+        chinese: {
+          traditional: '烽火連三月',
+          simplified: '烽火连三月',
+          pinyin: 'Fēng huǒ lián sān yuè',
+        },
         english: 'Beacon fires burn for three months now',
       },
       {
-        chinese: '家書抵萬金',
-        pinyin: 'Jiā shū dǐ wàn jīn',
+        chinese: {
+          traditional: '家書抵萬金',
+          simplified: '家书抵万金',
+          pinyin: 'Jiā shū dǐ wàn jīn',
+        },
         english: 'A letter from home worth ten thousand gold',
       },
       {
-        chinese: '白頭搔更短',
-        pinyin: 'Bái tóu sāo gèng duǎn',
+        chinese: {
+          traditional: '白頭搔更短',
+          simplified: '白头搔更短',
+          pinyin: 'Bái tóu sāo gèng duǎn',
+        },
         english: 'White hairs, scratched even shorter',
       },
       {
-        chinese: '渾欲不勝簪',
-        pinyin: 'Hún yù bù shèng zān',
+        chinese: {
+          traditional: '渾欲不勝簪',
+          simplified: '浑欲不胜簪',
+          pinyin: 'Hún yù bù shèng zān',
+        },
         english: 'Too few now to hold a hairpin',
       },
     ],
@@ -63,38 +94,57 @@ export const poems: Poem[] = [
   {
     id: 'quiet-night-thoughts',
     title: {
-      chinese: '靜夜思',
+      chinese: {
+        traditional: '靜夜思',
+        simplified: '静夜思',
+        pinyin: 'Jìng Yè Sī',
+      },
       english: 'Quiet Night Thoughts',
-      pinyin: 'Jìng Yè Sī',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikipedia.org/wiki/靜夜思',
     verses: [
       {
-        chinese: '床前明月光',
-        pinyin: 'Chuáng qián míng yuè guāng',
+        chinese: {
+          traditional: '床前明月光',
+          simplified: '床前明月光',
+          pinyin: 'Chuáng qián míng yuè guāng',
+        },
         english: 'Before my bed, the bright moonlight',
       },
       {
-        chinese: '疑是地上霜',
-        pinyin: 'Yí shì dì shàng shuāng',
+        chinese: {
+          traditional: '疑是地上霜',
+          simplified: '疑是地上霜',
+          pinyin: 'Yí shì dì shàng shuāng',
+        },
         english: 'Seems like frost upon the ground',
       },
       {
-        chinese: '舉頭望明月',
-        pinyin: 'Jǔ tóu wàng míng yuè',
+        chinese: {
+          traditional: '舉頭望明月',
+          simplified: '举头望明月',
+          pinyin: 'Jǔ tóu wàng míng yuè',
+        },
         english: 'Raising my head to look at the bright moon',
       },
       {
-        chinese: '低頭思故鄉',
-        pinyin: 'Dī tóu sī gù xiāng',
+        chinese: {
+          traditional: '低頭思故鄉',
+          simplified: '低头思故乡',
+          pinyin: 'Dī tóu sī gù xiāng',
+        },
         english: 'Lowering my head to think of home',
       },
     ],
@@ -102,38 +152,57 @@ export const poems: Poem[] = [
   {
     id: 'yearning',
     title: {
-      chinese: '相思',
+      chinese: {
+        traditional: '相思',
+        simplified: '相思',
+        pinyin: 'Xiāng Sī',
+      },
       english: 'Yearning',
-      pinyin: 'Xiāng Sī',
     },
     author: {
-      chinese: '王維',
-      pinyin: 'Wáng Wéi',
+      chinese: {
+        traditional: '王維',
+        simplified: '王维',
+        pinyin: 'Wáng Wéi',
+      },
       english: 'Wang Wei',
-      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikipedia.org/wiki/相思_(王維)',
     verses: [
       {
-        chinese: '紅豆生南國',
-        pinyin: 'Hóng dòu shēng nán guó',
+        chinese: {
+          traditional: '紅豆生南國',
+          simplified: '红豆生南国',
+          pinyin: 'Hóng dòu shēng nán guó',
+        },
         english: 'Red beans grow in southern lands',
       },
       {
-        chinese: '春來發幾枝',
-        pinyin: 'Chūn lái fā jǐ zhī',
+        chinese: {
+          traditional: '春來發幾枝',
+          simplified: '春来发几枝',
+          pinyin: 'Chūn lái fā jǐ zhī',
+        },
         english: 'In spring how many branches sprout',
       },
       {
-        chinese: '願君多採擷',
-        pinyin: 'Yuàn jūn duō cǎi xié',
+        chinese: {
+          traditional: '願君多採擷',
+          simplified: '愿君多采撷',
+          pinyin: 'Yuàn jūn duō cǎi xié',
+        },
         english: 'I wish you would gather many',
       },
       {
-        chinese: '此物最相思',
-        pinyin: 'Cǐ wù zuì xiāng sī',
+        chinese: {
+          traditional: '此物最相思',
+          simplified: '此物最相思',
+          pinyin: 'Cǐ wù zuì xiāng sī',
+        },
         english: 'These things most remind me of you',
       },
     ],
@@ -141,77 +210,115 @@ export const poems: Poem[] = [
   {
     id: 'question-and-answer-on-the-mountain',
     title: {
-      chinese: '山中問答',
+      chinese: {
+        traditional: '山中問答',
+        simplified: '山中问答',
+        pinyin: 'Shān Zhōng Wèn Dá',
+      },
       english: 'Question and Answer on the Mountain',
-      pinyin: 'Shān Zhōng Wèn Dá',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikipedia.org/wiki/山中問答',
     verses: [
       {
-        chinese: '問余何意棲碧山',
-        pinyin: 'Wèn yú hé yì qī bì shān',
+        chinese: {
+          traditional: '問余何意棲碧山',
+          simplified: '问余何意栖碧山',
+          pinyin: 'Wèn yú hé yì qī bì shān',
+        },
         english: 'You ask why I lodge in these emerald hills',
       },
       {
-        chinese: '笑而不答心自閒',
-        pinyin: 'Xiào ér bù dá xīn zì xián',
+        chinese: {
+          traditional: '笑而不答心自閒',
+          simplified: '笑而不答心自闲',
+          pinyin: 'Xiào ér bù dá xīn zì xián',
+        },
         english: 'I smile without answering, my heart at peace',
       },
       {
-        chinese: '桃花流水窅然去',
-        pinyin: 'Táo huā liú shuǐ yǎn rán qù',
-        english: 'Peach blossoms float on the water, flowing away',
+        chinese: {
+          traditional: '桃花流水杳然去',
+          simplified: '桃花流水杳然去',
+          pinyin: 'Táo huā liú shuǐ yǎo rán qù',
+        },
+        english: 'Peach blossoms and flowing streams pass away into mystery',
       },
       {
-        chinese: '別有天地非人間',
-        pinyin: 'Bié yǒu tiān dì fēi rén jiān',
-        english: 'Another world exists, beyond the human realm',
+        chinese: {
+          traditional: '別有天地非人間',
+          simplified: '别有天地非人间',
+          pinyin: 'Bié yǒu tiān dì fēi rén jiān',
+        },
+        english: 'Another heaven and earth, not the world of men',
       },
     ],
   },
   {
     id: 'river-snow',
     title: {
-      chinese: '江雪',
+      chinese: {
+        traditional: '江雪',
+        simplified: '江雪',
+        pinyin: 'Jiāng Xuě',
+      },
       english: 'River Snow',
-      pinyin: 'Jiāng Xuě',
     },
     author: {
-      chinese: '柳宗元',
-      pinyin: 'Liǔ Zōng Yuán',
+      chinese: {
+        traditional: '柳宗元',
+        simplified: '柳宗元',
+        pinyin: 'Liǔ Zōng Yuán',
+      },
       english: 'Liu Zongyuan',
-      url: 'https://en.wikipedia.org/wiki/Liu_Zongyuan',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikipedia.org/wiki/江雪',
     verses: [
       {
-        chinese: '千山鳥飛絕',
-        pinyin: 'Qiān shān niǎo fēi jué',
-        english: 'A thousand mountains, no birds in flight',
+        chinese: {
+          traditional: '千山鳥飛絕',
+          simplified: '千山鸟飞绝',
+          pinyin: 'Qiān shān niǎo fēi jué',
+        },
+        english: 'A thousand hills, no birds in flight',
       },
       {
-        chinese: '萬徑人蹤滅',
-        pinyin: 'Wàn jìng rén zōng miè',
+        chinese: {
+          traditional: '萬徑人蹤滅',
+          simplified: '万径人踪灭',
+          pinyin: 'Wàn jìng rén zōng miè',
+        },
         english: 'Ten thousand paths, no human trace',
       },
       {
-        chinese: '孤舟簑笠翁',
-        pinyin: 'Gū zhōu suō lì wēng',
+        chinese: {
+          traditional: '孤舟簑笠翁',
+          simplified: '孤舟蓑笠翁',
+          pinyin: 'Gū zhōu suō lì wēng',
+        },
         english: 'A lonely boat, a straw-cloaked man',
       },
       {
-        chinese: '獨釣寒江雪',
-        pinyin: 'Dú diào hán jiāng xuě',
+        chinese: {
+          traditional: '獨釣寒江雪',
+          simplified: '独钓寒江雪',
+          pinyin: 'Dú diào hán jiāng xuě',
+        },
         english: 'Fishing alone in the cold river snow',
       },
     ],
@@ -219,38 +326,57 @@ export const poems: Poem[] = [
   {
     id: 'farewell',
     title: {
-      chinese: '送別',
-      pinyin: 'Sòng Bié',
+      chinese: {
+        traditional: '送別',
+        simplified: '送别',
+        pinyin: 'Sòng Bié',
+      },
       english: 'Farewell',
     },
     author: {
-      chinese: '王維',
-      pinyin: 'Wáng Wéi',
+      chinese: {
+        traditional: '王維',
+        simplified: '王维',
+        pinyin: 'Wáng Wéi',
+      },
       english: 'Wang Wei',
-      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikipedia.org/wiki/送別_(詩曲)',
     verses: [
       {
-        chinese: '山中相送罷',
-        pinyin: 'Shān zhōng xiāng sòng bà',
+        chinese: {
+          traditional: '山中相送罷',
+          simplified: '山中相送罢',
+          pinyin: 'Shān zhōng xiāng sòng bà',
+        },
         english: 'After seeing you off in the mountains',
       },
       {
-        chinese: '日暮掩柴扉',
-        pinyin: 'Rì mù yǎn chái fēi',
+        chinese: {
+          traditional: '日暮掩柴扉',
+          simplified: '日暮掩柴扉',
+          pinyin: 'Rì mù yǎn chái fēi',
+        },
         english: 'At sunset I close my rustic gate',
       },
       {
-        chinese: '春草明年綠',
-        pinyin: 'Chūn cǎo míng nián lǜ',
+        chinese: {
+          traditional: '春草明年綠',
+          simplified: '春草明年绿',
+          pinyin: 'Chūn cǎo míng nián lǜ',
+        },
         english: 'Spring grass will be green again next year',
       },
       {
-        chinese: '王孫歸不歸',
-        pinyin: 'Wáng sūn guī bù guī',
+        chinese: {
+          traditional: '王孫歸不歸',
+          simplified: '王孙归不归',
+          pinyin: 'Wáng sūn guī bù guī',
+        },
         english: 'But will my noble friend return?',
       },
     ],
@@ -258,430 +384,580 @@ export const poems: Poem[] = [
   {
     id: 'thoughts-on-night',
     title: {
-      chinese: '旅夜書懷',
-      pinyin: 'Lǚ Yè Shū Huái',
-      english: 'Thoughts on Night',
+      chinese: {
+        traditional: '旅夜書懷',
+        simplified: '旅夜书怀',
+        pinyin: 'Lǚ Yè Shū Huái',
+      },
+      english: 'Thoughts on a Night Journey',
     },
     author: {
-      chinese: '杜甫',
-      pinyin: 'Dù Fǔ',
+      chinese: {
+        traditional: '杜甫',
+        simplified: '杜甫',
+        pinyin: 'Dù Fǔ',
+      },
       english: 'Du Fu',
-      url: 'https://en.wikipedia.org/wiki/Du_Fu',
     },
-    form: '五言律詩',
+    form: {
+      traditional: '五言律詩',
+      simplified: '五言律诗',
+    },
     formEnglish: 'Five-character regulated verse',
-    url: 'https://zh.wikisource.org/wiki/旅夜書懷',
     verses: [
       {
-        chinese: '細草微風岸',
-        pinyin: 'Xì cǎo wēi fēng àn',
-        english: 'Fine grass by the wind-swept shore',
+        chinese: {
+          traditional: '細草微風岸',
+          simplified: '细草微风岸',
+          pinyin: 'Xì cǎo wēi fēng àn',
+        },
+        english: 'Fine grass and gentle breeze by the shore',
       },
       {
-        chinese: '危檣獨夜舟',
-        pinyin: 'Wēi qiáng dú yè zhōu',
-        english: 'Tall mast on a lone night boat',
+        chinese: {
+          traditional: '危檣獨夜舟',
+          simplified: '危樯独夜舟',
+          pinyin: 'Wēi qiáng dú yè zhōu',
+        },
+        english: 'Tall mast, a lonely boat at night',
       },
       {
-        chinese: '星垂平野闊',
-        pinyin: 'Xīng chuí píng yě kuò',
-        english: 'Stars hang over the vast plain',
+        chinese: {
+          traditional: '星垂平野闊',
+          simplified: '星垂平野阔',
+          pinyin: 'Xīng chuí píng yě kuò',
+        },
+        english: 'Stars hang low over the vast plain',
       },
       {
-        chinese: '月湧大江流',
-        pinyin: 'Yuè yǒng dà jiāng liú',
-        english: "Moon surges with the great river's flow",
-      },
-      {
-        chinese: '名豈文章著',
-        pinyin: 'Míng qǐ wén zhāng zhù',
-        english: 'Could my name be known through writings?',
-      },
-      {
-        chinese: '官應老病休',
-        pinyin: 'Guān yīng lǎo bìng xiū',
-        english: 'My office lost to age and illness',
-      },
-      {
-        chinese: '飄飄何所似',
-        pinyin: 'Piāo piāo hé suǒ sì',
-        english: 'Drifting, what am I like?',
-      },
-      {
-        chinese: '天地一沙鷗',
-        pinyin: 'Tiān dì yī shā ōu',
-        english: 'A seagull between heaven and earth',
+        chinese: {
+          traditional: '月湧大江流',
+          simplified: '月涌大江流',
+          pinyin: 'Yuè yǒng dà jiāng liú',
+        },
+        english: 'Moon rises as the great river flows',
       },
     ],
   },
   {
     id: 'yellow-crane-tower',
     title: {
-      chinese: '黃鶴樓',
-      pinyin: 'Huáng Hè Lóu',
+      chinese: {
+        traditional: '黃鶴樓',
+        simplified: '黄鹤楼',
+        pinyin: 'Huáng Hè Lóu',
+      },
       english: 'Yellow Crane Tower',
     },
     author: {
-      chinese: '崔顥',
-      pinyin: 'Cuī Hào',
+      chinese: {
+        traditional: '崔顥',
+        simplified: '崔颢',
+        pinyin: 'Cuī Hào',
+      },
       english: 'Cui Hao',
-      url: 'https://en.wikipedia.org/wiki/Cui_Hao_(poet)',
     },
-    form: '七言律詩',
-    formEnglish: 'Seven-character regulated verse',
-    url: 'https://zh.wikisource.org/wiki/黃鶴樓_(崔顥)',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
+    formEnglish: 'Seven-character quatrain',
     verses: [
       {
-        chinese: '昔人已乘黃鶴去',
-        pinyin: 'Xī rén yǐ chéng huáng hè qù',
-        english: 'Long ago, someone rode off on a yellow crane;',
+        chinese: {
+          traditional: '昔人已乘黃鶴去',
+          simplified: '昔人已乘黄鹤去',
+          pinyin: 'Xí rén yǐ chéng huáng hè qù',
+        },
+        english: 'The sage of old rode off on a yellow crane',
       },
       {
-        chinese: '此地空餘黃鶴樓',
-        pinyin: 'Cǐ dì kōng yú huáng hè lóu',
-        english: 'Here remains only this Yellow Crane Tower.',
+        chinese: {
+          traditional: '此地空餘黃鶴樓',
+          simplified: '此地空余黄鹤楼',
+          pinyin: 'Cǐ dì kōng yú huáng hè lóu',
+        },
+        english: 'Leaving only Yellow Crane Tower behind',
       },
       {
-        chinese: '黃鶴一去不復返',
-        pinyin: 'Huáng hè yī qù bù fù fǎn',
-        english: 'The yellow crane, once gone, never returns;',
+        chinese: {
+          traditional: '黃鶴一去不復返',
+          simplified: '黄鹤一去不复返',
+          pinyin: 'Huáng hè yī qù bù fù fǎn',
+        },
+        english: 'The yellow crane never returned',
       },
       {
-        chinese: '白雲千載空悠悠',
-        pinyin: 'Bái yún qiān zǎi kōng yōu yōu',
-        english: 'White clouds drift through a thousand ages.',
-      },
-      {
-        chinese: '晴川歷歷漢陽樹',
-        pinyin: 'Qíng chuān lì lì Hàn yáng shù',
-        english: 'Below, Hanyang’s trees stand distinct in the clear sun;',
-      },
-      {
-        chinese: '芳草萋萋鸚鵡洲',
-        pinyin: 'Fāng cǎo qī qī yīng wǔ zhōu',
-        english: 'Lush grasses flourish on Parrot Island.',
-      },
-      {
-        chinese: '日暮鄉關何處是',
-        pinyin: 'Rì mù xiāng guān hé chù shì',
-        english: 'At twilight, where lies my native land?',
-      },
-      {
-        chinese: '煙波江上使人愁',
-        pinyin: 'Yān bō jiāng shàng shǐ rén chóu',
-        english: 'Misty waves on the river fill the heart with sorrow.',
+        chinese: {
+          traditional: '白雲千載空悠悠',
+          simplified: '白云千载空悠悠',
+          pinyin: 'Bái yún qiān zǎi kōng yōu yōu',
+        },
+        english: 'White clouds drift idly for a thousand years',
       },
     ],
   },
   {
     id: 'spring-dawn',
     title: {
-      chinese: '春曉',
-      pinyin: 'Chūn Xiǎo',
+      chinese: {
+        traditional: '春曉',
+        simplified: '春晓',
+        pinyin: 'Chūn Xiǎo',
+      },
       english: 'Spring Dawn',
     },
     author: {
-      chinese: '孟浩然',
-      pinyin: 'Mèng Hàorán',
+      chinese: {
+        traditional: '孟浩然',
+        simplified: '孟浩然',
+        pinyin: 'Mèng Hàorán',
+      },
       english: 'Meng Haoran',
-      url: 'https://en.wikipedia.org/wiki/Meng_Haoran',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/春曉_(孟浩然)',
     verses: [
       {
-        chinese: '春眠不覺曉',
-        pinyin: 'Chūn mián bù jué xiǎo',
-        english: 'In spring, one sleeps unaware of dawn;',
+        chinese: {
+          traditional: '春眠不覺曉',
+          simplified: '春眠不觉晓',
+          pinyin: 'Chūn mián bù jué xiǎo',
+        },
+        english: 'In spring sleep, I missed the dawn',
       },
       {
-        chinese: '處處聞啼鳥',
-        pinyin: 'Chù chù wén tí niǎo',
-        english: 'Everywhere, the calls of birds are heard.',
+        chinese: {
+          traditional: '處處聞啼鳥',
+          simplified: '处处闻啼鸟',
+          pinyin: 'Chù chù wén tí niǎo',
+        },
+        english: 'Everywhere I hear birds singing',
       },
       {
-        chinese: '夜來風雨聲',
-        pinyin: 'Yè lái fēng yǔ shēng',
-        english: 'Last night came wind and rain,',
+        chinese: {
+          traditional: '夜來風雨聲',
+          simplified: '夜来风雨声',
+          pinyin: 'Yè lái fēng yǔ shēng',
+        },
+        english: 'Last night came the sound of wind and rain',
       },
       {
-        chinese: '花落知多少',
-        pinyin: 'Huā luò zhī duō shǎo',
-        english: 'Who knows how many blossoms have fallen?',
+        chinese: {
+          traditional: '花落知多少',
+          simplified: '花落知多少',
+          pinyin: 'Huā luò zhī duō shǎo',
+        },
+        english: 'Who knows how many flowers have fallen?',
       },
     ],
   },
   {
     id: 'a-night-mooring-by-maple-bridge',
     title: {
-      chinese: '楓橋夜泊',
-      pinyin: 'Fēng Qiáo Yè Bó',
+      chinese: {
+        traditional: '楓橋夜泊',
+        simplified: '枫桥夜泊',
+        pinyin: 'Fēng Qiáo Yè Bó',
+      },
       english: 'A Night Mooring by Maple Bridge',
     },
     author: {
-      chinese: '張繼',
-      pinyin: 'Zhāng Jì',
+      chinese: {
+        traditional: '張繼',
+        simplified: '张继',
+        pinyin: 'Zhāng Jì',
+      },
       english: 'Zhang Ji',
-      url: 'https://en.wikipedia.org/wiki/Zhang_Ji_(poet)',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/楓橋夜泊',
     verses: [
       {
-        chinese: '月落烏啼霜滿天',
-        pinyin: 'Yuè luò wū tí shuāng mǎn tiān',
-        english: 'Moon sets, crows cry, frost fills the sky.',
+        chinese: {
+          traditional: '月落烏啼霜滿天',
+          simplified: '月落乌啼霜满天',
+          pinyin: 'Yuè luò wū tí shuāng mǎn tiān',
+        },
+        english: 'Moon sets, crows cry, frost fills the sky',
       },
       {
-        chinese: '江楓漁火對愁眠',
-        pinyin: 'Jiāng fēng yú huǒ duì chóu mián',
-        english: 'Riverside maples and fishing lights trouble my sleep.',
+        chinese: {
+          traditional: '江楓漁火對愁眠',
+          simplified: '江枫渔火对愁眠',
+          pinyin: 'Jiāng fēng yú huǒ duì chóu mián',
+        },
+        english: 'River maples, fishing fires face my melancholy sleep',
       },
       {
-        chinese: '姑蘇城外寒山寺',
-        pinyin: 'Gū sū chéng wài Hán shān sì',
-        english: 'Outside Gusu City lies Cold Mountain Temple;',
+        chinese: {
+          traditional: '姑蘇城外寒山寺',
+          simplified: '姑苏城外寒山寺',
+          pinyin: 'Gū sū chéng wài hán shān sì',
+        },
+        english: 'Beyond Gusu City, from Cold Mountain Temple',
       },
       {
-        chinese: '夜半鐘聲到客船',
-        pinyin: 'Yè bàn zhōng shēng dào kè chuán',
-        english: 'At midnight, the bell’s sound reaches my boat.',
+        chinese: {
+          traditional: '夜半鐘聲到客船',
+          simplified: '夜半钟声到客船',
+          pinyin: 'Yè bàn zhōng shēng dào kè chuán',
+        },
+        english: 'At midnight, the bell sound reaches my boat',
       },
     ],
   },
   {
     id: 'night-snow',
     title: {
-      chinese: '夜雪',
-      pinyin: 'Yè Xuě',
+      chinese: {
+        traditional: '夜雪',
+        simplified: '夜雪',
+        pinyin: 'Yè Xuě',
+      },
       english: 'Night Snow',
     },
     author: {
-      chinese: '白居易',
-      pinyin: 'Bái Jūyì',
+      chinese: {
+        traditional: '白居易',
+        simplified: '白居易',
+        pinyin: 'Bái Jūyì',
+      },
       english: 'Bai Juyi',
-      url: 'https://en.wikipedia.org/wiki/Bai_Juyi',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/夜雪_(白居易)',
     verses: [
       {
-        chinese: '已訝衾枕冷',
-        pinyin: 'Yǐ yà qīn zhěn lěng',
-        english: 'I’m startled that my quilt and pillow are cold;',
+        chinese: {
+          traditional: '已訝衣裳薄',
+          simplified: '已讶衣裳薄',
+          pinyin: 'Yǐ yà yī shang báo',
+        },
+        english: 'Already surprised at how thin my clothes are',
       },
       {
-        chinese: '復見窗戶明',
-        pinyin: 'Fù jiàn chuāng hù míng',
-        english: 'Then notice the window’s sudden brightness.',
+        chinese: {
+          traditional: '復看燈影斜',
+          simplified: '复看灯影斜',
+          pinyin: 'Fù kàn dēng yǐng xié',
+        },
+        english: 'Again I watch the lamp shadows slant',
       },
       {
-        chinese: '夜深知雪重',
-        pinyin: 'Yè shēn zhī xuě zhòng',
-        english: 'Late at night, I realize how thick the snow must be,',
+        chinese: {
+          traditional: '猶嫌夜來早',
+          simplified: '犹嫌夜来早',
+          pinyin: 'Yóu xián yè lái zǎo',
+        },
+        english: 'Still resenting how early night has come',
       },
       {
-        chinese: '時聞折竹聲',
-        pinyin: 'Shí wén zhé zhú shēng',
-        english: 'For now and then I hear bamboo stalks crack.',
+        chinese: {
+          traditional: '寂寞梅花落',
+          simplified: '寂寞梅花落',
+          pinyin: 'Jì mò méi huā luò',
+        },
+        english: 'Lonely plum blossoms fall',
       },
     ],
   },
   {
     id: 'qingming-festival',
     title: {
-      chinese: '清明',
-      pinyin: 'Qīng Míng',
-      english: 'Qingming',
+      chinese: {
+        traditional: '清明',
+        simplified: '清明',
+        pinyin: 'Qīng Míng',
+      },
+      english: 'Qingming Festival',
     },
     author: {
-      chinese: '杜牧',
-      pinyin: 'Dù Mù',
+      chinese: {
+        traditional: '杜牧',
+        simplified: '杜牧',
+        pinyin: 'Dù Mù',
+      },
       english: 'Du Mu',
-      url: 'https://en.wikipedia.org/wiki/Du_Mu',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/清明_(杜牧)',
     verses: [
       {
-        chinese: '清明時節雨紛紛',
-        pinyin: 'Qīngmíng shíjié yǔ fēn fēn',
-        english: 'At Qingming Festival, rains drizzle on and on.',
+        chinese: {
+          traditional: '清明時節雨紛紛',
+          simplified: '清明时节雨纷纷',
+          pinyin: 'Qīng míng shí jié yǔ fēn fēn',
+        },
+        english: 'A drizzling rain falls like tears on the Qingming Festival',
       },
       {
-        chinese: '路上行人欲斷魂',
-        pinyin: 'Lù shàng xíngrén yù duàn hún',
-        english: 'Travelers on the road seem lost in sorrow.',
+        chinese: {
+          traditional: '路上行人欲斷魂',
+          simplified: '路上行人欲断魂',
+          pinyin: 'Lù shàng xíng rén yù duàn hún',
+        },
+        english: 'The traveler’s heart breaks on the journey',
       },
       {
-        chinese: '借問酒家何處有',
-        pinyin: 'Jiè wèn jiǔ jiā hé chù yǒu',
-        english: 'I ask where a tavern can be found—',
+        chinese: {
+          traditional: '借問酒家何處有',
+          simplified: '借问酒家何处有',
+          pinyin: 'Jiè wèn jiǔ jiā hé chù yǒu',
+        },
+        english: 'Asking where can I find a tavern',
       },
       {
-        chinese: '牧童遙指杏花村',
-        pinyin: 'Mù tóng yáo zhǐ xìng huā cūn',
-        english: 'A herdboy points to Apricot Blossom Village afar.',
+        chinese: {
+          traditional: '牧童遙指杏花村',
+          simplified: '牧童遥指杏花村',
+          pinyin: 'Mù tóng yáo zhǐ xìng huā cūn',
+        },
+        english: 'A shepherd boy points to Apricot Blossom Village in the distance',
       },
     ],
   },
   {
     id: 'night-rain-sent-north',
     title: {
-      chinese: '夜雨寄北',
-      pinyin: 'Yè Yǔ Jì Běi',
+      chinese: {
+        traditional: '夜雨寄北',
+        simplified: '夜雨寄北',
+        pinyin: 'Yè Yǔ Jì Běi',
+      },
       english: 'Night Rain Sent North',
     },
     author: {
-      chinese: '李商隱',
-      pinyin: 'Lǐ Shāngyǐn',
+      chinese: {
+        traditional: '李商隱',
+        simplified: '李商隐',
+        pinyin: 'Lǐ Shāngyǐn',
+      },
       english: 'Li Shangyin',
-      url: 'https://en.wikipedia.org/wiki/Li_Shangyin',
     },
-    form: '七言絕句',
-    formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/夜雨寄北',
+    form: {
+      traditional: '五言律詩',
+      simplified: '五言律诗',
+    },
+    formEnglish: 'Five-character regulated verse',
     verses: [
       {
-        chinese: '君問歸期未有期',
-        pinyin: 'Jūn wèn guī qī wèi yǒu qī',
-        english: 'You ask my return date—I cannot say.',
+        chinese: {
+          traditional: '君問歸期未有期',
+          simplified: '君问归期未有期',
+          pinyin: 'Jūn wèn guī qī wèi yǒu qī',
+        },
+        english: 'You ask when I will return, but I cannot say',
       },
       {
-        chinese: '巴山夜雨漲秋池',
-        pinyin: 'Bā shān yè yǔ zhǎng qiū chí',
-        english: 'Night rain in Bashan swells the autumn pond.',
+        chinese: {
+          traditional: '巴山夜雨漲秋池',
+          simplified: '巴山夜雨涨秋池',
+          pinyin: 'Bā shān yè yǔ zhǎng qiū chí',
+        },
+        english: 'Night rain in Ba Mountain swells the autumn pools',
       },
       {
-        chinese: '何當共剪西窗燭',
-        pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
-        english: 'When shall we trim the lamp together by the western window,',
+        chinese: {
+          traditional: '何當共剪西窗燭',
+          simplified: '何当共剪西窗烛',
+          pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
+        },
+        english: 'When can we trim the candle by the west window',
       },
       {
-        chinese: '卻話巴山夜雨時',
-        pinyin: 'Què huà Bā shān yè yǔ shí',
-        english: 'And talk again of this Bashan night rain?',
+        chinese: {
+          traditional: '卻話巴山夜雨時',
+          simplified: '却话巴山夜雨时',
+          pinyin: 'Què huà bā shān yè yǔ shí',
+        },
+        english: 'And talk about this night rain in Ba Mountain?',
       },
     ],
   },
   {
     id: 'farewell-to-a-friend-li-bai',
     title: {
-      chinese: '送友人',
-      pinyin: 'Sòng Yǒu Rén',
+      chinese: {
+        traditional: '送友人',
+        simplified: '送友人',
+        pinyin: 'Sòng Yǒu Rén',
+      },
       english: 'Farewell to a Friend',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '五言律詩',
+    form: {
+      traditional: '五言律詩',
+      simplified: '五言律诗',
+    },
     formEnglish: 'Five-character regulated verse',
-    url: 'https://zh.wikisource.org/wiki/送友人_(李白)',
     verses: [
       {
-        chinese: '青山橫北郭',
-        pinyin: 'Qīng shān héng běi guō',
-        english: 'Green hills stretch across the northern outskirts;',
+        chinese: {
+          traditional: '青山橫北郭',
+          simplified: '青山横北郭',
+          pinyin: 'Qīng shān héng běi guō',
+        },
+        english: 'Green mountains span the northern outskirts',
       },
       {
-        chinese: '白水繞東城',
-        pinyin: 'Bái shuǐ rào dōng chéng',
-        english: 'White waters circle the eastern walls.',
+        chinese: {
+          traditional: '白水繞東城',
+          simplified: '白水绕东城',
+          pinyin: 'Bái shuǐ rào dōng chéng',
+        },
+        english: 'White waters circle the eastern city',
       },
       {
-        chinese: '此地一為別',
-        pinyin: 'Cǐ dì yī wéi bié',
-        english: 'Here, once again, we bid farewell,',
+        chinese: {
+          traditional: '此地一為別',
+          simplified: '此地一为别',
+          pinyin: 'Cǐ dì yī wéi bié',
+        },
+        english: 'At this place we must part',
       },
       {
-        chinese: '孤蓬萬里征',
-        pinyin: 'Gū péng wàn lǐ zhēng',
-        english: 'Like a lone tumbleweed traveling ten thousand miles.',
+        chinese: {
+          traditional: '孤蓬萬里征',
+          simplified: '孤蓬万里征',
+          pinyin: 'Gū péng wàn lǐ zhēng',
+        },
+        english: 'Like a lonely tumbleweed traveling ten thousand li',
       },
       {
-        chinese: '浮雲遊子意',
-        pinyin: 'Fú yún yóu zǐ yì',
-        english: 'Drifting clouds reflect a wanderer’s heart,',
+        chinese: {
+          traditional: '浮雲遊子意',
+          simplified: '浮云游子意',
+          pinyin: 'Fú yún yóu zǐ yì',
+        },
+        english: 'Floating clouds mark the wanderer’s mood',
       },
       {
-        chinese: '落日故人情',
-        pinyin: 'Luò rì gù rén qíng',
-        english: 'The setting sun speaks of old friends’ feelings.',
+        chinese: {
+          traditional: '落日故人情',
+          simplified: '落日故人情',
+          pinyin: 'Luò rì gù rén qíng',
+        },
+        english: 'Setting sun shows old friend’s feeling',
       },
       {
-        chinese: '揮手自茲去',
-        pinyin: 'Huī shǒu zì zī qù',
-        english: 'We wave our hands and part from here,',
+        chinese: {
+          traditional: '揮手自此去',
+          simplified: '挥手自此去',
+          pinyin: 'Huī shǒu zì cǐ qù',
+        },
+        english: 'Waving hands, from here we part',
       },
       {
-        chinese: '蕭蕭班馬鳴',
-        pinyin: 'Xiāo xiāo bān mǎ míng',
-        english: 'As the horses neigh in the rustling wind.',
+        chinese: {
+          traditional: '蕭蕭班馬鳴',
+          simplified: '萧萧班马鸣',
+          pinyin: 'Xiāo xiāo bān mǎ míng',
+        },
+        english: 'Softly neigh the departing horses',
       },
     ],
   },
   {
     id: 'on-climbing-stork-tower',
     title: {
-      chinese: '登鸛雀樓',
-      pinyin: 'Dēng Guàn Què Lóu',
+      chinese: {
+        traditional: '登鸛雀樓',
+        simplified: '登鹳雀楼',
+        pinyin: 'Dēng Guàn Què Lóu',
+      },
       english: 'On Climbing Stork Tower',
     },
     author: {
-      chinese: '王之渙',
-      pinyin: 'Wáng Zhīhuàn',
+      chinese: {
+        traditional: '王之渙',
+        simplified: '王之涣',
+        pinyin: 'Wáng Zhīhuàn',
+      },
       english: 'Wang Zhihuan',
-      url: 'https://en.wikipedia.org/wiki/Wang_Zhihuan',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)',
     verses: [
       {
-        chinese: '白日依山盡',
-        pinyin: 'Bái rì yī shān jìn',
-        english: 'The white sun leans on the mountains, sinking.',
+        chinese: {
+          traditional: '白日依山盡',
+          simplified: '白日依山尽',
+          pinyin: 'Bái rì yī shān jìn',
+        },
+        english: 'The white sun rests on the mountain’s edge',
       },
       {
-        chinese: '黃河入海流',
-        pinyin: 'Huáng hé rù hǎi liú',
-        english: 'The Yellow River flows onward into the sea.',
+        chinese: {
+          traditional: '黃河入海流',
+          simplified: '黄河入海流',
+          pinyin: 'Huáng hé rù hǎi liú',
+        },
+        english: 'The Yellow River flows into the sea',
       },
       {
-        chinese: '欲窮千里目',
-        pinyin: 'Yù qióng qiān lǐ mù',
-        english: 'If you would see a thousand miles more,',
+        chinese: {
+          traditional: '欲窮千里目',
+          simplified: '欲穷千里目',
+          pinyin: 'Yù qióng qiān lǐ mù',
+        },
+        english: 'To see a thousand li further',
       },
       {
-        chinese: '更上一層樓',
-        pinyin: 'Gèng shàng yī céng lóu',
-        english: 'Climb yet another floor.',
+        chinese: {
+          traditional: '更上一層樓',
+          simplified: '更上一层楼',
+          pinyin: 'Gèng shàng yī céng lóu',
+        },
+        english: 'Climb one more floor of the tower',
       },
     ],
   },
   {
     id: 'climbing-high-dufu',
     title: {
-      chinese: '登高',
-      pinyin: 'Dēng Gāo',
+      chinese: {
+        traditional: '登高',
+        simplified: '登高',
+        pinyin: 'Dēng Gāo',
+      },
       english: 'Climbing High',
     },
     author: {
-      chinese: '杜甫',
-      pinyin: 'Dù Fǔ',
+      chinese: {
+        traditional: '杜甫',
+        simplified: '杜甫',
+        pinyin: 'Dù Fǔ',
+      },
       english: 'Du Fu',
-      url: 'https://en.wikipedia.org/wiki/Du_Fu',
     },
-    form: '七言律詩',
+    form: {
+      traditional: '七言律詩',
+      simplified: '七言律诗',
+    },
     formEnglish: 'Seven-character regulated verse',
-    url: 'https://zh.wikisource.org/wiki/登高_(杜甫)',
     verses: [
       {
         chinese: '風急天高猿嘯哀',
@@ -728,19 +1004,26 @@ export const poems: Poem[] = [
   {
     id: 'sending-yuan-ii-to-anxi',
     title: {
-      chinese: '送元二使安西',
-      pinyin: 'Sòng Yuán Èr Shǐ Ān Xī',
+      chinese: {
+        traditional: '送元二使安西',
+        simplified: '送元二使安西',
+        pinyin: 'Sòng Yuán Èr Shǐ Ān Xī',
+      },
       english: 'Farewell to Yuan II on His Mission to Anxi',
     },
     author: {
-      chinese: '王維',
-      pinyin: 'Wáng Wéi',
+      chinese: {
+        traditional: '王維',
+        simplified: '王维',
+        pinyin: 'Wáng Wéi',
+      },
       english: 'Wang Wei',
-      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/送元二使安西',
     verses: [
       {
         chinese: '渭城朝雨浥輕塵',
@@ -767,19 +1050,26 @@ export const poems: Poem[] = [
   {
     id: 'beyond-the-border',
     title: {
-      chinese: '出塞',
-      pinyin: 'Chū Sài',
+      chinese: {
+        traditional: '出塞',
+        simplified: '出塞',
+        pinyin: 'Chū Sài',
+      },
       english: 'Beyond the Border',
     },
     author: {
-      chinese: '王昌齡',
-      pinyin: 'Wáng Chānglíng',
+      chinese: {
+        traditional: '王昌齡',
+        simplified: '王昌龄',
+        pinyin: 'Wáng Chānglíng',
+      },
       english: 'Wang Changling',
-      url: 'https://en.wikipedia.org/wiki/Wang_Changling',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/出塞_(王昌齡)',
     verses: [
       {
         chinese: '秦時明月漢時關',
@@ -806,19 +1096,26 @@ export const poems: Poem[] = [
   {
     id: 'spring-night-rain',
     title: {
-      chinese: '春夜喜雨',
-      pinyin: 'Chūn Yè Xǐ Yǔ',
+      chinese: {
+        traditional: '春夜喜雨',
+        simplified: '春夜喜雨',
+        pinyin: 'Chūn Yè Xǐ Yǔ',
+      },
       english: 'Spring Night Rain',
     },
     author: {
-      chinese: '杜甫',
-      pinyin: 'Dù Fǔ',
+      chinese: {
+        traditional: '杜甫',
+        simplified: '杜甫',
+        pinyin: 'Dù Fǔ',
+      },
       english: 'Du Fu',
-      url: 'https://en.wikipedia.org/wiki/Du_Fu',
     },
-    form: '五言律詩',
+    form: {
+      traditional: '五言律詩',
+      simplified: '五言律诗',
+    },
     formEnglish: 'Five-character regulated verse',
-    url: 'https://zh.wikisource.org/wiki/春夜喜雨',
     verses: [
       {
         chinese: '好雨知時節',
@@ -865,19 +1162,26 @@ export const poems: Poem[] = [
   {
     id: 'ascending-the-leyou-plateau',
     title: {
-      chinese: '登樂遊原',
-      pinyin: 'Dēng Lè Yóu Yuán',
+      chinese: {
+        traditional: '登樂遊原',
+        simplified: '登乐游原',
+        pinyin: 'Dēng Lè Yóu Yuán',
+      },
       english: 'Climbing the Leyou Plateau',
     },
     author: {
-      chinese: '李商隱',
-      pinyin: 'Lǐ Shāngyǐn',
+      chinese: {
+        traditional: '李商隱',
+        simplified: '李商隐',
+        pinyin: 'Lǐ Shāngyǐn',
+      },
       english: 'Li Shangyin',
-      url: 'https://en.wikipedia.org/wiki/Li_Shangyin',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/登樂遊原',
     verses: [
       {
         chinese: '向晚意不適',
@@ -904,19 +1208,26 @@ export const poems: Poem[] = [
   {
     id: 'encountering-snow-at-hibiscus-mountain',
     title: {
-      chinese: '逢雪宿芙蓉山主人',
-      pinyin: 'Féng Xuě Sù Fúróng Shān Zhǔ Rén',
+      chinese: {
+        traditional: '逢雪宿芙蓉山主人',
+        simplified: '逢雪宿芙蓉山主人',
+        pinyin: 'Féng Xuě Sù Fúróng Shān Zhǔ Rén',
+      },
       english: 'Encountering Snow, Lodging at Hibiscus Mountain',
     },
     author: {
-      chinese: '劉長卿',
-      pinyin: 'Liú Chángqīng',
+      chinese: {
+        traditional: '劉長卿',
+        simplified: '刘长卿',
+        pinyin: 'Liú Chángqīng',
+      },
       english: 'Liu Changqing',
-      url: 'https://en.wikipedia.org/wiki/Liu_Changqing',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/逢雪宿芙蓉山主人',
     verses: [
       {
         chinese: '日暮蒼山遠',
@@ -943,19 +1254,26 @@ export const poems: Poem[] = [
   {
     id: 'mountain-travel',
     title: {
-      chinese: '山行',
-      pinyin: 'Shān Xíng',
+      chinese: {
+        traditional: '山行',
+        simplified: '山行',
+        pinyin: 'Shān Xíng',
+      },
       english: 'Mountain Travel',
     },
     author: {
-      chinese: '杜牧',
-      pinyin: 'Dù Mù',
+      chinese: {
+        traditional: '杜牧',
+        simplified: '杜牧',
+        pinyin: 'Dù Mù',
+      },
       english: 'Du Mu',
-      url: 'https://en.wikipedia.org/wiki/Du_Mu',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/山行_(杜牧)',
     verses: [
       {
         chinese: '遠上寒山石徑斜',
@@ -982,19 +1300,26 @@ export const poems: Poem[] = [
   {
     id: 'jiangnan-spring',
     title: {
-      chinese: '江南春',
-      pinyin: 'Jiāng Nán Chūn',
+      chinese: {
+        traditional: '江南春',
+        simplified: '江南春',
+        pinyin: 'Jiāng Nán Chūn',
+      },
       english: 'Jiangnan Spring',
     },
     author: {
-      chinese: '杜牧',
-      pinyin: 'Dù Mù',
+      chinese: {
+        traditional: '杜牧',
+        simplified: '杜牧',
+        pinyin: 'Dù Mù',
+      },
       english: 'Du Mu',
-      url: 'https://en.wikipedia.org/wiki/Du_Mu',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/江南春_(杜牧)',
     verses: [
       {
         chinese: '千里鶯啼綠映紅',
@@ -1021,19 +1346,26 @@ export const poems: Poem[] = [
   {
     id: 'spending-the-night-on-jiande-river',
     title: {
-      chinese: '宿建德江',
-      pinyin: 'Sù Jiàndé Jiāng',
+      chinese: {
+        traditional: '宿建德江',
+        simplified: '宿建德江',
+        pinyin: 'Sù Jiàndé Jiāng',
+      },
       english: 'Spending the Night on the Jiande River',
     },
     author: {
-      chinese: '孟浩然',
-      pinyin: 'Mèng Hàorán',
+      chinese: {
+        traditional: '孟浩然',
+        simplified: '孟浩然',
+        pinyin: 'Mèng Hàorán',
+      },
       english: 'Meng Haoran',
-      url: 'https://en.wikipedia.org/wiki/Meng_Haoran',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/宿建德江',
     verses: [
       {
         chinese: '移舟泊煙渚',
@@ -1060,38 +1392,57 @@ export const poems: Poem[] = [
   {
     id: 'in-the-bamboo-grove',
     title: {
-      chinese: '竹里館',
-      pinyin: 'Zhú Lǐ Guǎn',
+      chinese: {
+        traditional: '竹里館',
+        simplified: '竹里馆',
+        pinyin: 'Zhú Lǐ Guǎn',
+      },
       english: 'In the Bamboo Grove',
     },
     author: {
-      chinese: '王維',
-      pinyin: 'Wáng Wéi',
+      chinese: {
+        traditional: '王維',
+        simplified: '王维',
+        pinyin: 'Wáng Wéi',
+      },
       english: 'Wang Wei',
-      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/竹里館',
     verses: [
       {
-        chinese: '獨坐幽篁裡',
-        pinyin: 'Dú zuò yōu huáng lǐ',
+        chinese: {
+          traditional: '獨坐幽篁裡',
+          simplified: '独坐幽篁里',
+          pinyin: 'Dú zuò yōu huáng lǐ',
+        },
         english: 'I sit alone within the quiet bamboo grove,',
       },
       {
-        chinese: '彈琴復長嘯',
-        pinyin: 'Tán qín fù cháng xiào',
+        chinese: {
+          traditional: '彈琴復長嘯',
+          simplified: '弹琴复长啸',
+          pinyin: 'Tán qín fù cháng xiào',
+        },
         english: 'Strumming my lute, then whistling long.',
       },
       {
-        chinese: '深林人不知',
-        pinyin: 'Shēn lín rén bù zhī',
+        chinese: {
+          traditional: '深林人不知',
+          simplified: '深林人不知',
+          pinyin: 'Shēn lín rén bù zhī',
+        },
         english: 'In the deep forest, no one knows I’m here—',
       },
       {
-        chinese: '明月來相照',
-        pinyin: 'Míng yuè lái xiāng zhào',
+        chinese: {
+          traditional: '明月來相照',
+          simplified: '明月来相照',
+          pinyin: 'Míng yuè lái xiāng zhào',
+        },
         english: 'The bright moon arrives to shine on me.',
       },
     ],
@@ -1099,38 +1450,57 @@ export const poems: Poem[] = [
   {
     id: 'deer-enclosure',
     title: {
-      chinese: '鹿柴',
-      pinyin: 'Lù Chái',
+      chinese: {
+        traditional: '鹿柴',
+        simplified: '鹿柴',
+        pinyin: 'Lù Chái',
+      },
       english: 'Deer Enclosure',
     },
     author: {
-      chinese: '王維',
-      pinyin: 'Wáng Wéi',
+      chinese: {
+        traditional: '王維',
+        simplified: '王维',
+        pinyin: 'Wáng Wéi',
+      },
       english: 'Wang Wei',
-      url: 'https://en.wikipedia.org/wiki/Wang_Wei_(Tang_dynasty)',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/鹿柴_(王維)',
     verses: [
       {
-        chinese: '空山不見人',
-        pinyin: 'Kōng shān bù jiàn rén',
+        chinese: {
+          traditional: '空山不見人',
+          simplified: '空山不见人',
+          pinyin: 'Kōng shān bù jiàn rén',
+        },
         english: 'In the empty mountains, no one is seen,',
       },
       {
-        chinese: '但聞人語響',
-        pinyin: 'Dàn wén rén yǔ xiǎng',
+        chinese: {
+          traditional: '但聞人語響',
+          simplified: '但闻人语响',
+          pinyin: 'Dàn wén rén yǔ xiǎng',
+        },
         english: 'Yet faint voices echo on the air.',
       },
       {
-        chinese: '返景入深林',
-        pinyin: 'Fǎn jǐng rù shēn lín',
+        chinese: {
+          traditional: '返景入深林',
+          simplified: '返景入深林',
+          pinyin: 'Fǎn jǐng rù shēn lín',
+        },
         english: 'Sunlight, returning, enters the deep forest,',
       },
       {
-        chinese: '復照青苔上',
-        pinyin: 'Fù zhào qīng tái shàng',
+        chinese: {
+          traditional: '復照青苔上',
+          simplified: '复照青苔上',
+          pinyin: 'Fù zhào qīng tái shàng',
+        },
         english: 'And shines again upon the green moss.',
       },
     ],
@@ -1138,38 +1508,57 @@ export const poems: Poem[] = [
   {
     id: 'viewing-waterfall-at-mount-lu',
     title: {
-      chinese: '望廬山瀑布',
-      pinyin: 'Wàng Lú Shān Pù Bù',
+      chinese: {
+        traditional: '望廬山瀑布',
+        simplified: '望庐山瀑布',
+        pinyin: 'Wàng Lú Shān Pù Bù',
+      },
       english: 'Viewing the Waterfall at Mount Lu',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/望廬山瀑布',
     verses: [
       {
-        chinese: '日照香爐生紫煙',
-        pinyin: 'Rì zhào xiāng lú shēng zǐ yān',
+        chinese: {
+          traditional: '日照香爐生紫煙',
+          simplified: '日照香炉生紫烟',
+          pinyin: 'Rì zhào xiāng lú shēng zǐ yān',
+        },
         english: 'Incense Burner Peak glows with purple mist in sunlight,',
       },
       {
-        chinese: '遙看瀑布掛前川',
-        pinyin: 'Yáo kàn pù bù guà qián chuān',
+        chinese: {
+          traditional: '遙看瀑布掛前川',
+          simplified: '遥看瀑布挂前川',
+          pinyin: 'Yáo kàn pù bù guà qián chuān',
+        },
         english: 'From afar, I see the waterfall hanging before the stream.',
       },
       {
-        chinese: '飛流直下三千尺',
-        pinyin: 'Fēi liú zhí xià sān qiān chǐ',
+        chinese: {
+          traditional: '飛流直下三千尺',
+          simplified: '飞流直下三千尺',
+          pinyin: 'Fēi liú zhí xià sān qiān chǐ',
+        },
         english: 'Its torrent pours down three thousand feet,',
       },
       {
-        chinese: '疑是銀河落九天',
-        pinyin: 'Yí shì yín hé luò jiǔ tiān',
+        chinese: {
+          traditional: '疑是銀河落九天',
+          simplified: '疑是银河落九天',
+          pinyin: 'Yí shì yín hé luò jiǔ tiān',
+        },
         english: 'As though the Milky Way were falling from heaven.',
       },
     ],
@@ -1177,38 +1566,57 @@ export const poems: Poem[] = [
   {
     id: 'grasses',
     title: {
-      chinese: '賦得古原草送別',
-      pinyin: 'Fù Dé Gǔ Yuán Cǎo Sòng Bié',
+      chinese: {
+        traditional: '賦得古原草送別',
+        simplified: '赋得古原草送别',
+        pinyin: 'Fù Dé Gǔ Yuán Cǎo Sòng Bié',
+      },
       english: 'Grasses',
     },
     author: {
-      chinese: '白居易',
-      pinyin: 'Bái Jūyì',
+      chinese: {
+        traditional: '白居易',
+        simplified: '白居易',
+        pinyin: 'Bái Jūyì',
+      },
       english: 'Bai Juyi',
-      url: 'https://en.wikipedia.org/wiki/Bai_Juyi',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/賦得古原草送別',
     verses: [
       {
-        chinese: '離離原上草',
-        pinyin: 'Lí lí yuán shàng cǎo',
+        chinese: {
+          traditional: '離離原上草',
+          simplified: '离离原上草',
+          pinyin: 'Lí lí yuán shàng cǎo',
+        },
         english: 'Lush, lush, the grass upon the ancient plain,',
       },
       {
-        chinese: '一歲一枯榮',
-        pinyin: 'Yī suì yī kū róng',
+        chinese: {
+          traditional: '一歲一枯榮',
+          simplified: '一岁一枯荣',
+          pinyin: 'Yī suì yī kū róng',
+        },
         english: 'Year by year, it withers and flourishes anew.',
       },
       {
-        chinese: '野火燒不盡',
-        pinyin: 'Yě huǒ shāo bù jìn',
+        chinese: {
+          traditional: '野火燒不盡',
+          simplified: '野火烧不尽',
+          pinyin: 'Yě huǒ shāo bù jìn',
+        },
         english: 'Though wildfires burn, they cannot consume it,',
       },
       {
-        chinese: '春風吹又生',
-        pinyin: 'Chūn fēng chuī yòu shēng',
+        chinese: {
+          traditional: '春風吹又生',
+          simplified: '春风吹又生',
+          pinyin: 'Chūn fēng chuī yòu shēng',
+        },
         english: 'For spring winds blow, and it grows again.',
       },
     ],
@@ -1216,38 +1624,57 @@ export const poems: Poem[] = [
   {
     id: 'red-cliff-du-mu',
     title: {
-      chinese: '赤壁',
-      pinyin: 'Chì Bì',
+      chinese: {
+        traditional: '赤壁',
+        simplified: '赤壁',
+        pinyin: 'Chì Bì',
+      },
       english: 'Red Cliff',
     },
     author: {
-      chinese: '杜牧',
-      pinyin: 'Dù Mù',
+      chinese: {
+        traditional: '杜牧',
+        simplified: '杜牧',
+        pinyin: 'Dù Mù',
+      },
       english: 'Du Mu',
-      url: 'https://en.wikipedia.org/wiki/Du_Mu',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/赤壁_(杜牧)',
     verses: [
       {
-        chinese: '折戟沈沙鐵未銷',
-        pinyin: 'Zhé jǐ chén shā tiě wèi xiāo',
+        chinese: {
+          traditional: '折戟沈沙鐵未銷',
+          simplified: '折戟沉沙铁未销',
+          pinyin: 'Zhé jǐ chén shā tiě wèi xiāo',
+        },
         english: 'A broken halberd sinks in the sand, its iron not yet corroded,',
       },
       {
-        chinese: '自將磨洗認前朝',
-        pinyin: 'Zì jiāng mó xǐ rèn qián cháo',
+        chinese: {
+          traditional: '自將磨洗認前朝',
+          simplified: '自将磨洗认前朝',
+          pinyin: 'Zì jiāng mó xǐ rèn qián cháo',
+        },
         english: 'I scrub it clean, recalling a former dynasty.',
       },
       {
-        chinese: '東風不與周郎便',
-        pinyin: 'Dōng fēng bù yǔ Zhōu Láng biàn',
+        chinese: {
+          traditional: '東風不與周郎便',
+          simplified: '东风不与周郎便',
+          pinyin: 'Dōng fēng bù yǔ Zhōu Láng biàn',
+        },
         english: 'Had the east wind not favored Zhou Yu,',
       },
       {
-        chinese: '銅雀春深鎖二喬',
-        pinyin: 'Tóng què chūn shēn suǒ èr Qiáo',
+        chinese: {
+          traditional: '銅雀春深鎖二喬',
+          simplified: '铜雀春深锁二乔',
+          pinyin: 'Tóng què chūn shēn suǒ èr Qiáo',
+        },
         english: 'Then the Bronze Sparrow Terrace would lock the Two Qiaos in spring.',
       },
     ],
@@ -1255,38 +1682,57 @@ export const poems: Poem[] = [
   {
     id: 'song-of-liangzhou',
     title: {
-      chinese: '涼州詞',
-      pinyin: 'Liáng Zhōu Cí',
+      chinese: {
+        traditional: '涼州詞',
+        simplified: '凉州词',
+        pinyin: 'Liáng Zhōu Cí',
+      },
       english: 'A Song of Liangzhou',
     },
     author: {
-      chinese: '王翰',
-      pinyin: 'Wáng Hàn',
+      chinese: {
+        traditional: '王翰',
+        simplified: '王翰',
+        pinyin: 'Wáng Hàn',
+      },
       english: 'Wang Han',
-      url: 'https://en.wikipedia.org/wiki/Wang_Han_(Tang_dynasty)',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/涼州詞_(王翰)',
     verses: [
       {
-        chinese: '葡萄美酒夜光杯',
-        pinyin: 'Pú táo měi jiǔ yè guāng bēi',
+        chinese: {
+          traditional: '葡萄美酒夜光杯',
+          simplified: '葡萄美酒夜光杯',
+          pinyin: 'Pú táo měi jiǔ yè guāng bēi',
+        },
         english: 'In a gleaming cup, rich grape wine by night,',
       },
       {
-        chinese: '欲飲琵琶馬上催',
-        pinyin: 'Yù yǐn pípá mǎ shàng cuī',
+        chinese: {
+          traditional: '欲飲琵琶馬上催',
+          simplified: '欲饮琵琶马上催',
+          pinyin: 'Yù yǐn pípá mǎ shàng cuī',
+        },
         english: 'We’re about to drink when pipa strings urge us onward.',
       },
       {
-        chinese: '醉臥沙場君莫笑',
-        pinyin: 'Zuì wò shā chǎng jūn mò xiào',
+        chinese: {
+          traditional: '醉臥沙場君莫笑',
+          simplified: '醉卧沙场君莫笑',
+          pinyin: 'Zuì wò shā chǎng jūn mò xiào',
+        },
         english: 'Do not laugh if we lie drunk on the battlefield—',
       },
       {
-        chinese: '古來征戰幾人回',
-        pinyin: 'Gǔ lái zhēng zhàn jǐ rén huí',
+        chinese: {
+          traditional: '古來征戰幾人回',
+          simplified: '古来征战几人回',
+          pinyin: 'Gǔ lái zhēng zhàn jǐ rén huí',
+        },
         english: 'Since ancient times, few return from war.',
       },
     ],
@@ -1294,38 +1740,57 @@ export const poems: Poem[] = [
   {
     id: 'early-departure-from-white-emperor-city',
     title: {
-      chinese: '早發白帝城',
-      pinyin: 'Zǎo Fā Bái Dì Chéng',
+      chinese: {
+        traditional: '早發白帝城',
+        simplified: '早发白帝城',
+        pinyin: 'Zǎo Fā Bái Dì Chéng',
+      },
       english: 'Early Departure from White Emperor City',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/早發白帝城',
     verses: [
       {
-        chinese: '朝辭白帝彩雲間',
-        pinyin: 'Zhāo cí Bái Dì cǎi yún jiān',
+        chinese: {
+          traditional: '朝辭白帝彩雲間',
+          simplified: '朝辞白帝彩云间',
+          pinyin: 'Zhāo cí Bái Dì cǎi yún jiān',
+        },
         english: 'At dawn, leaving White Emperor City in cloud-bright skies,',
       },
       {
-        chinese: '千里江陵一日還',
-        pinyin: 'Qiān lǐ Jiāng Líng yī rì huán',
+        chinese: {
+          traditional: '千里江陵一日還',
+          simplified: '千里江陵一日还',
+          pinyin: 'Qiān lǐ Jiāng Líng yī rì huán',
+        },
         english: 'In one day, I reach Jiangling a thousand miles away.',
       },
       {
-        chinese: '兩岸猿聲啼不住',
-        pinyin: 'Liǎng àn yuán shēng tí bù zhù',
+        chinese: {
+          traditional: '兩岸猿聲啼不住',
+          simplified: '两岸猿声啼不住',
+          pinyin: 'Liǎng àn yuán shēng tí bù zhù',
+        },
         english: 'Though monkeys cry endlessly along both banks,',
       },
       {
-        chinese: '輕舟已過萬重山',
-        pinyin: 'Qīng zhōu yǐ guò wàn chóng shān',
+        chinese: {
+          traditional: '輕舟已過萬重山',
+          simplified: '轻舟已过万重山',
+          pinyin: 'Qīng zhōu yǐ guò wàn chóng shān',
+        },
         english: 'My little boat has sailed past countless mountains.',
       },
     ],
@@ -1333,38 +1798,57 @@ export const poems: Poem[] = [
   {
     id: 'listening-to-a-monk-from-shu',
     title: {
-      chinese: '聽蜀僧濬彈琴',
-      pinyin: 'Tīng Shǔ Sēng Jùn Tán Qín',
+      chinese: {
+        traditional: '聽蜀僧濬彈琴',
+        simplified: '听蜀僧濬弹琴',
+        pinyin: 'Tīng Shǔ Sēng Jùn Tán Qín',
+      },
       english: 'Listening to a Monk from Shu Playing the Lute',
     },
     author: {
-      chinese: '李白',
-      pinyin: 'Lǐ Bái',
+      chinese: {
+        traditional: '李白',
+        simplified: '李白',
+        pinyin: 'Lǐ Bái',
+      },
       english: 'Li Bai',
-      url: 'https://en.wikipedia.org/wiki/Li_Bai',
     },
-    form: '五言絕句',
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
+    },
     formEnglish: 'Five-character quatrain',
-    url: 'https://zh.wikisource.org/wiki/聽蜀僧濬彈琴',
     verses: [
       {
-        chinese: '蜀僧抱綠綺',
-        pinyin: 'Shǔ sēng bào lǜ qǐ',
+        chinese: {
+          traditional: '蜀僧抱綠綺',
+          simplified: '蜀僧抱绿绮',
+          pinyin: 'Shǔ sēng bào lǜ qǐ',
+        },
         english: 'A monk from Shu cradles his jade-green lute,',
       },
       {
-        chinese: '西下峨眉峰',
-        pinyin: 'Xī xià Éméi fēng',
+        chinese: {
+          traditional: '西下峨眉峰',
+          simplified: '西下峨眉峰',
+          pinyin: 'Xī xià Éméi fēng',
+        },
         english: 'Traveling down from lofty Emei in the west.',
       },
       {
-        chinese: '為我一揮手',
-        pinyin: 'Wèi wǒ yī huī shǒu',
+        chinese: {
+          traditional: '為我一揮手',
+          simplified: '为我一挥手',
+          pinyin: 'Wèi wǒ yī huī shǒu',
+        },
         english: 'He gives one sweeping chord for me—',
       },
       {
-        chinese: '如聽萬壑松',
-        pinyin: 'Rú tīng wàn hè sōng',
+        chinese: {
+          traditional: '如聽萬壑松',
+          simplified: '如听万壑松',
+          pinyin: 'Rú tīng wàn hè sōng',
+        },
         english: 'Like listening to pines in ten thousand ravines.',
       },
     ],
@@ -1372,58 +1856,89 @@ export const poems: Poem[] = [
   {
     id: 'night-of-the-fifteenth',
     title: {
-      chinese: '正月十五夜',
-      pinyin: 'Zhèng Yuè Shíwǔ Yè',
+      chinese: {
+        traditional: '正月十五夜',
+        simplified: '正月十五夜',
+        pinyin: 'Zhèng Yuè Shíwǔ Yè',
+      },
       english: 'Night of the Fifteenth',
     },
     author: {
-      chinese: '蘇味道',
-      pinyin: 'Sū Wèidào',
+      chinese: {
+        traditional: '蘇味道',
+        simplified: '苏味道',
+        pinyin: 'Sū Wèidào',
+      },
       english: 'Su Weidao',
-      url: 'https://zh.wikipedia.org/wiki/蘇味道',
     },
-    form: '七言律詩',
+    form: {
+      traditional: '七言律詩',
+      simplified: '七言律诗',
+    },
     formEnglish: 'Seven-character regulated verse',
-    url: '',
     verses: [
       {
-        chinese: '火樹銀花合',
-        pinyin: 'Huǒ shù yín huā hé',
+        chinese: {
+          traditional: '火樹銀花合',
+          simplified: '火树银花合',
+          pinyin: 'Huǒ shù yín huā hé',
+        },
         english: 'Fire trees and silver flowers join',
       },
       {
-        chinese: '星橋鐵鎖開',
-        pinyin: 'Xīng qiáo tiě suǒ kāi',
+        chinese: {
+          traditional: '星橋鐵鎖開',
+          simplified: '星桥铁锁开',
+          pinyin: 'Xīng qiáo tiě suǒ kāi',
+        },
         english: 'Starry bridges, iron locks thrown open',
       },
       {
-        chinese: '暗塵隨馬去',
-        pinyin: 'Àn chén suí mǎ qù',
+        chinese: {
+          traditional: '暗塵隨馬去',
+          simplified: '暗尘随马去',
+          pinyin: 'Àn chén suí mǎ qù',
+        },
         english: 'Night dust follows the horses away',
       },
       {
-        chinese: '明月逐人來',
-        pinyin: 'Míng yuè zhú rén lái',
-        english: 'The bright moon pursues the revelers',
+        chinese: {
+          traditional: '明月來相照',
+          simplified: '明月来相照',
+          pinyin: 'Míng yuè lái xiāng zhào',
+        },
+        english: 'The bright moon arrives to shine on me',
       },
       {
-        chinese: '遊妓皆薔薇',
-        pinyin: 'Yóu jì jiē qiáng wéi',
+        chinese: {
+          traditional: '遊妓皆薔薇',
+          simplified: '游妓皆薔薇',
+          pinyin: 'Yóu jì jiē qiáng wéi',
+        },
         english: 'Courtesans wander, all in rose-like finery',
       },
       {
-        chinese: '行歌盡落梅',
-        pinyin: 'Xíng gē jìn luò méi',
+        chinese: {
+          traditional: '行歌盡落梅',
+          simplified: '行歌尽落梅',
+          pinyin: 'Xíng gē jìn luò méi',
+        },
         english: 'Their singing drifts like falling plum blossoms',
       },
       {
-        chinese: '金吾不禁夜',
-        pinyin: 'Jīn wú bù jìn yè',
+        chinese: {
+          traditional: '金吾不禁夜',
+          simplified: '金吾不禁夜',
+          pinyin: 'Jīn wú bù jìn yè',
+        },
         english: 'The guards do not forbid the night',
       },
       {
-        chinese: '玉漏莫相催',
-        pinyin: 'Yù lòu mò xiāng cuī',
+        chinese: {
+          traditional: '玉漏莫相催',
+          simplified: '玉漏莫相催',
+          pinyin: 'Yù lòu mò xiāng cuī',
+        },
         english: 'Let not the jade water clock hurry the hours away',
       },
     ],
@@ -1431,38 +1946,57 @@ export const poems: Poem[] = [
   {
     id: 'shangyuan-night',
     title: {
-      chinese: '上元夜',
-      pinyin: 'Shàng Yuán Yè',
+      chinese: {
+        traditional: '上元夜',
+        simplified: '上元夜',
+        pinyin: 'Shàng Yuán Yè',
+      },
       english: 'Night of the Shangyuan Festival',
     },
     author: {
-      chinese: '崔液',
-      pinyin: 'Cuī Yè',
+      chinese: {
+        traditional: '崔液',
+        simplified: '崔液',
+        pinyin: 'Cuī Yè',
+      },
       english: 'Cui Ye',
-      url: '',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: '',
     verses: [
       {
-        chinese: '玉漏銀壺且莫催',
-        pinyin: 'Yù lòu yín hú qiě mò cuī',
+        chinese: {
+          traditional: '玉漏銀壺且莫催',
+          simplified: '玉漏银壶且莫催',
+          pinyin: 'Yù lòu yín hú qiě mò cuī',
+        },
         english: 'Let the jade water clock and silver urn not press the hours',
       },
       {
-        chinese: '鐵關金鎖徹明開',
-        pinyin: 'Tiě guān jīn suǒ chè míng kāi',
+        chinese: {
+          traditional: '鐵關金鎖徹明開',
+          simplified: '铁关金锁彻明开',
+          pinyin: 'Tiě guān jīn suǒ chè míng kāi',
+        },
         english: 'Iron gates and golden locks stand open till dawn',
       },
       {
-        chinese: '誰家見月能閒坐',
-        pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
+        chinese: {
+          traditional: '誰家見月能閒坐',
+          simplified: '谁家见月能闲坐',
+          pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
+        },
         english: 'Who, seeing the moon, could remain quietly at home?',
       },
       {
-        chinese: '何處聞燈不看來',
-        pinyin: 'Hé chù wén dēng bù kàn lái',
+        chinese: {
+          traditional: '何處聞燈不看來',
+          simplified: '何处闻灯不看来',
+          pinyin: 'Hé chù wén dēng bù kàn lái',
+        },
         english: 'Where lanterns glow, who would not go to watch?',
       },
     ],
@@ -1470,38 +2004,57 @@ export const poems: Poem[] = [
   {
     id: 'lanterns-on-the-fifteenth',
     title: {
-      chinese: '正月十五夜燈',
-      pinyin: 'Zhèng Yuè Shíwǔ Yè Dēng',
+      chinese: {
+        traditional: '正月十五夜燈',
+        simplified: '正月十五夜灯',
+        pinyin: 'Zhèng Yuè Shíwǔ Yè Dēng',
+      },
       english: 'Lanterns on the Night of the Fifteenth',
     },
     author: {
-      chinese: '張祜',
-      pinyin: 'Zhāng Hù',
+      chinese: {
+        traditional: '張祜',
+        simplified: '张祜',
+        pinyin: 'Zhāng Hù',
+      },
       english: 'Zhang Hu',
-      url: '',
     },
-    form: '七言絕句',
+    form: {
+      traditional: '七言絕句',
+      simplified: '七言绝句',
+    },
     formEnglish: 'Seven-character quatrain',
-    url: '',
     verses: [
       {
-        chinese: '千門開鎖萬燈明',
-        pinyin: 'Qiān mén kāi suǒ wàn dēng míng',
+        chinese: {
+          traditional: '千門開鎖萬燈明',
+          simplified: '千门开锁万灯明',
+          pinyin: 'Qiān mén kāi suǒ wàn dēng míng',
+        },
         english: 'A thousand gates unlocked, ten thousand lanterns bright',
       },
       {
-        chinese: '正月中旬動帝京',
-        pinyin: 'Zhèng yuè zhōng xún dòng dì jīng',
+        chinese: {
+          traditional: '正月中旬動帝京',
+          simplified: '正月中旬动帝京',
+          pinyin: 'Zhèng yuè zhōng xún dòng dì jīng',
+        },
         english: 'In mid-first month, the imperial capital stirs',
       },
       {
-        chinese: '三百內人連袖舞',
-        pinyin: 'Sān bǎi nèi rén lián xiù wǔ',
+        chinese: {
+          traditional: '三百內人連袖舞',
+          simplified: '三百内人连袖舞',
+          pinyin: 'Sān bǎi nèi rén lián xiù wǔ',
+        },
         english: 'Three hundred palace ladies dance, sleeves linked',
       },
       {
-        chinese: '一聲菩薩萬人驚',
-        pinyin: 'Yī shēng pú sà wàn rén jīng',
+        chinese: {
+          traditional: '一聲菩薩萬人驚',
+          simplified: '一声菩萨万人惊',
+          pinyin: 'Yī shēng pú sà wàn rén jīng',
+        },
         english: 'One cry of “Bodhisattva!” startles ten thousand souls',
       },
     ],

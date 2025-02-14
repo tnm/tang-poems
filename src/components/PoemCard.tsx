@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
 import { Poem } from '../types/poem';
 import type { ExtendedCSSProperties } from '../types/styles';
+import { useCharacter } from '../context/CharacterContext';
 
 interface PoemCardProps {
   poem: Poem;
 }
 
 export default function PoemCard({ poem }: PoemCardProps) {
+  const { getText } = useCharacter();
+
   return (
     <Link
       to={`/poem/${poem.id}`}
@@ -43,17 +46,22 @@ export default function PoemCard({ poem }: PoemCardProps) {
             gap: '0.25rem',
           }}
         >
-          <div style={{ fontSize: '1.125rem' }}>{poem.title.chinese}</div>
+          <div style={{ fontSize: '1.125rem' }}>{getText(poem.title.chinese)}</div>
           <div style={{ fontSize: '0.875rem', opacity: 0.7 }}>{poem.title.english}</div>
         </div>
+
         <div
           style={{
             fontSize: '0.875rem',
-            opacity: 0.5,
-            marginTop: 'auto',
+            opacity: 0.7,
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
           }}
         >
-          {poem.author.chinese} · {poem.author.english}
+          <span>{getText(poem.author.chinese)}</span>
+          <span>·</span>
+          <span>{poem.author.english}</span>
         </div>
       </div>
     </Link>

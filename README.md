@@ -9,13 +9,14 @@ A curated collection of Tang Dynasty poetry presented in a modern, elegant web i
 ## Features
 
 - **Authentic Presentation**
-  - Original Chinese text with careful attention to traditional characters
+  - Support for default traditional (繁體) and simplified (简体) Chinese characters
   - English translations that balance accuracy and poetic beauty
-  - Optional Pinyin transliteration for pronunciation guidance
+  - Optional Pinyin transliteration for modern pronunciation guidance
   
-- **Minimalist Design**
-  - Simple for distraction-free viewing
-  - Responsive layout optimized for all devices, from mobile to desktop
+- **Elegant Reading Experience**
+  - Clean, paper-like presentation of poems
+  - Side-by-side Chinese and English on desktop
+  - Optimized stacked layout for mobile devices
   - Dark mode support for comfortable reading in any environment
 
 - **Rich Content**
@@ -23,6 +24,12 @@ A curated collection of Tang Dynasty poetry presented in a modern, elegant web i
   - Works from renowned poets like Du Fu (杜甫), Li Bai (李白), and more
   - Detailed metadata including poetic forms
   - Links to additional resources and references
+
+- **Thoughtful Interactions**
+  - Keyboard navigation (←/→ arrows, Esc)
+  - Character variant toggle (traditional/simplified)
+  - Optional Pinyin display
+  - Responsive design that adapts to screen size
 
 - **Simple to run and develop**
   - Fast, client-side rendering with React
@@ -50,27 +57,14 @@ Visit `http://localhost:5173` to see the project running locally.
 
 Contributions are welcome! Here's how you can help:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Make your changes
-   - Add new poems or translations
-   - Improve existing translations
-   - Enhance the user interface
-   - Fix bugs or improve performance
-4. Format your code (`npm run format`)
-5. Run linting checks (`npm run lint`)
-6. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-7. Push to the branch (`git push origin feature/AmazingFeature`)
-8. Open a Pull Request
+- Add new poems with translations and Pinyin
+- Improve existing translations
+- Enhance the reading experience
+- Fix bugs or improve performance
+- Add new features
 
-### Adding New Poems
-
-When adding new poems, please ensure:
-- Accurate Chinese text
-- High-quality English translation
-- Correct Pinyin transliteration
-- Complete metadata (poet, form, historical context)
+Please feel free to submit issues and pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT 

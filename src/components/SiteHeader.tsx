@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
+import CharacterToggle from './CharacterToggle';
 
 export default function SiteHeader() {
   return (
@@ -34,7 +35,10 @@ export default function SiteHeader() {
         >
           Tang Poetry Collection
         </Link>
-        <ThemeToggle />
+        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <CharacterToggle />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );

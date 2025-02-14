@@ -960,43 +960,67 @@ export const poems: Poem[] = [
     formEnglish: 'Seven-character regulated verse',
     verses: [
       {
-        chinese: '風急天高猿嘯哀',
-        pinyin: 'Fēng jí tiān gāo yuán xiào āi',
+        chinese: {
+          traditional: '風急天高猿嘯哀',
+          simplified: '风急天高猿啸哀',
+          pinyin: 'Fēng jí tiān gāo yuán xiào āi',
+        },
         english: 'The wind is fierce, the sky high, monkeys wail in sorrow.',
       },
       {
-        chinese: '渚清沙白鳥飛回',
-        pinyin: 'Zhǔ qīng shā bái niǎo fēi huí',
+        chinese: {
+          traditional: '渚清沙白鳥飛回',
+          simplified: '渚清沙白鸟飞回',
+          pinyin: 'Zhǔ qīng shā bái niǎo fēi huí',
+        },
         english: 'On clean sandbars, white birds circle above.',
       },
       {
-        chinese: '無邊落木蕭蕭下',
-        pinyin: 'Wú biān luò mù xiāo xiāo xià',
+        chinese: {
+          traditional: '無邊落木蕭蕭下',
+          simplified: '无边落木萧萧下',
+          pinyin: 'Wú biān luò mù xiāo xiāo xià',
+        },
         english: 'Boundless falling leaves rustle to the ground,',
       },
       {
-        chinese: '不盡長江滾滾來',
-        pinyin: 'Bù jìn Cháng Jiāng gǔn gǔn lái',
+        chinese: {
+          traditional: '不盡長江滾滾來',
+          simplified: '不尽长江滚滚来',
+          pinyin: 'Bù jìn Cháng Jiāng gǔn gǔn lái',
+        },
         english: 'And the unending Yangtze rushes, rolling on.',
       },
       {
-        chinese: '萬里悲秋常作客',
-        pinyin: 'Wàn lǐ bēi qiū cháng zuò kè',
+        chinese: {
+          traditional: '萬里悲秋常作客',
+          simplified: '万里悲秋常作客',
+          pinyin: 'Wàn lǐ bēi qiū cháng zuò kè',
+        },
         english: 'A thousand miles from home, I’m always a sad guest of autumn;',
       },
       {
-        chinese: '百年多病獨登臺',
-        pinyin: 'Bǎi nián duō bìng dú dēng tái',
+        chinese: {
+          traditional: '百年多病獨登臺',
+          simplified: '百年多病独登台',
+          pinyin: 'Bǎi nián duō bìng dú dēng tái',
+        },
         english: 'At life’s midpoint, ill and alone, I climb this terrace.',
       },
       {
-        chinese: '艱難苦恨繁霜鬢',
-        pinyin: 'Jiān nán kǔ hèn fán shuāng bìn',
+        chinese: {
+          traditional: '艱難苦恨繁霜鬢',
+          simplified: '艰难苦恨繁霜鬓',
+          pinyin: 'Jiān nán kǔ hèn fán shuāng bìn',
+        },
         english: 'Harsh troubles vex my graying hair,',
       },
       {
-        chinese: '潦倒新停濁酒杯',
-        pinyin: 'Lǎo dǎo xīn tíng zhuó jiǔ bēi',
+        chinese: {
+          traditional: '潦倒新停濁酒杯',
+          simplified: '潦倒新停浊酒杯',
+          pinyin: 'Lǎo dǎo xīn tíng zhuó jiǔ bēi',
+        },
         english: 'In my decline, I set aside the cloudy wine cup.',
       },
     ],
@@ -1999,7 +2023,7 @@ export const poems: Poem[] = [
           simplified: '星桥铁锁开',
           pinyin: 'Xīng qiáo tiě suǒ kāi',
         },
-        english: 'Starry bridges, iron locks thrown open'
+        english: 'Starry bridges, iron locks thrown open',
       },
       {
         chinese: {
@@ -2007,7 +2031,7 @@ export const poems: Poem[] = [
           simplified: '暗尘随马去',
           pinyin: 'Àn chén suí mǎ qù',
         },
-        english: 'Night dust follows the horses away'
+        english: 'Night dust follows the horses away',
       },
       {
         chinese: {
@@ -2015,15 +2039,15 @@ export const poems: Poem[] = [
           simplified: '明月来相照',
           pinyin: 'Míng yuè lái xiāng zhào',
         },
-        english: 'The bright moon arrives to shine on me.'
+        english: 'The bright moon arrives to shine on me.',
       },
       {
         chinese: {
           traditional: '遊妓皆薔薇',
-          simplified: '游妓皆薔薇',
+          simplified: '游妓皆蔷薇',
           pinyin: 'Yóu jì jiē qiáng wéi',
         },
-        english: 'Courtesans wander, all in rose-like finery'
+        english: 'Courtesans wander, all in rose-like finery',
       },
       {
         chinese: {
@@ -2031,7 +2055,7 @@ export const poems: Poem[] = [
           simplified: '行歌尽落梅',
           pinyin: 'Xíng gē jìn luò méi',
         },
-        english: 'Their singing drifts like falling plum blossoms'
+        english: 'Their singing drifts like falling plum blossoms',
       },
       {
         chinese: {
@@ -2039,7 +2063,7 @@ export const poems: Poem[] = [
           simplified: '金吾不禁夜',
           pinyin: 'Jīn wú bù jìn yè',
         },
-        english: 'The guards do not forbid the night'
+        english: 'The guards do not forbid the night',
       },
       {
         chinese: {
@@ -2047,7 +2071,7 @@ export const poems: Poem[] = [
           simplified: '玉漏莫相催',
           pinyin: 'Yù lòu mò xiāng cuī',
         },
-        english: 'Let not the jade water clock hurry the hours away'
+        english: 'Let not the jade water clock hurry the hours away',
       },
     ],
   },
@@ -2081,7 +2105,7 @@ export const poems: Poem[] = [
           simplified: '玉漏银壶且莫催',
           pinyin: 'Yù lòu yín hú qiě mò cuī',
         },
-        english: 'Let the jade water clock and silver urn not press the hours'
+        english: 'Let the jade water clock and silver urn not press the hours',
       },
       {
         chinese: {
@@ -2089,7 +2113,7 @@ export const poems: Poem[] = [
           simplified: '铁关金锁彻明开',
           pinyin: 'Tiě guān jīn suǒ chè míng kāi',
         },
-        english: 'Iron gates and golden locks stand open till dawn'
+        english: 'Iron gates and golden locks stand open till dawn',
       },
       {
         chinese: {
@@ -2097,7 +2121,7 @@ export const poems: Poem[] = [
           simplified: '谁家见月能闲坐',
           pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
         },
-        english: 'Who, seeing the moon, could remain quietly at home?'
+        english: 'Who, seeing the moon, could remain quietly at home?',
       },
       {
         chinese: {
@@ -2105,7 +2129,7 @@ export const poems: Poem[] = [
           simplified: '何处闻灯不看来',
           pinyin: 'Hé chù wén dēng bù kàn lái',
         },
-        english: 'Where lanterns glow, who would not go to watch?'
+        english: 'Where lanterns glow, who would not go to watch?',
       },
     ],
   },
@@ -2139,7 +2163,7 @@ export const poems: Poem[] = [
           simplified: '千门开锁万灯明',
           pinyin: 'Qiān mén kāi suǒ wàn dēng míng',
         },
-        english: 'A thousand gates unlocked, ten thousand lanterns bright'
+        english: 'A thousand gates unlocked, ten thousand lanterns bright',
       },
       {
         chinese: {
@@ -2147,7 +2171,7 @@ export const poems: Poem[] = [
           simplified: '正月中旬动帝京',
           pinyin: 'Zhèng yuè zhōng xún dòng dì jīng',
         },
-        english: 'In mid-first month, the imperial capital stirs'
+        english: 'In mid-first month, the imperial capital stirs',
       },
       {
         chinese: {
@@ -2155,7 +2179,7 @@ export const poems: Poem[] = [
           simplified: '三百内人连袖舞',
           pinyin: 'Sān bǎi nèi rén lián xiù wǔ',
         },
-        english: 'Three hundred palace ladies dance, sleeves linked'
+        english: 'Three hundred palace ladies dance, sleeves linked',
       },
       {
         chinese: {
@@ -2163,7 +2187,7 @@ export const poems: Poem[] = [
           simplified: '一声菩萨万人惊',
           pinyin: 'Yī shēng pú sà wàn rén jīng',
         },
-        english: 'One cry of “Bodhisattva!” startles ten thousand souls'
+        english: 'One cry of “Bodhisattva!” startles ten thousand souls',
       },
     ],
   },

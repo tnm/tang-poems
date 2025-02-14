@@ -99,10 +99,10 @@ export default function TableOfContents() {
       <div
         style={{
           maxWidth: '1200px',
-          margin: '0 auto',
-          padding: '0.5rem',
+          margin: '2rem auto',
+          padding: '0 0.5rem',
           '@media (min-width: 601px)': {
-            padding: '1rem 2rem',
+            padding: '0 2rem',
           } as ExtendedCSSProperties,
         }}
       >
@@ -227,7 +227,7 @@ export default function TableOfContents() {
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-            gap: '1.5rem',
+            gap: '1rem',
             marginTop: '1rem',
           }}
         >

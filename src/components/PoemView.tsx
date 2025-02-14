@@ -46,7 +46,11 @@ export default function PoemView() {
   }
 
   return (
-    <div style={{ maxWidth: '1200px', margin: '2rem auto', padding: '0 2rem' }}>
+    <div style={{ 
+      maxWidth: '1200px', 
+      margin: '2rem auto', 
+      padding: isMobile ? '0 0.5rem' : '0 2rem'
+    }}>
       <div style={{ 
         marginBottom: '2rem',
         display: 'flex',

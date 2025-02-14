@@ -23,7 +23,7 @@ export default function PoemContent({ poem, showPinyin }: PoemContentProps) {
 
   return (
     <div style={{ 
-      padding: '2rem', 
+      padding: isMobile ? '1rem' : '2rem', 
       width: '100%',
       backgroundColor: 'var(--color-paper)',
       border: '1px solid var(--color-border)',

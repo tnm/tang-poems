@@ -2,7 +2,7 @@
 
 A curated collection of Tang Dynasty poetry presented in a modern, elegant web interface. This project brings classical Chinese literature to life with side-by-side Chinese and English translations, Pinyin transliterations, and a clean, distraction-free reading experience.
 
-[View the Collection](https://tang-poetry.vercel.app)
+[View the Collection](https://tangpoetry.org)
 
 ![Tang Poetry Collection Screenshot](public/screenshot-1.png)
 

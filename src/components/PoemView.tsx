@@ -92,7 +92,7 @@ export default function PoemView() {
           <ToggleSwitch
             checked={showPinyin}
             onChange={setShowPinyin}
-            label="Show Pinyin"
+            label="Pinyin"
           />
           <span style={{ fontFamily: 'var(--font-chinese)' }}>
             {getText(poem.author.chinese)}

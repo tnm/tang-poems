@@ -56,7 +56,7 @@ export default function PoemHeader({ poem, showPinyin, setShowPinyin }: PoemHead
           gap: '2rem',
         }}
       >
-        <ToggleSwitch checked={showPinyin} onChange={setShowPinyin} label="Show Pinyin" />
+        <ToggleSwitch checked={showPinyin} onChange={setShowPinyin} label="Pinyin" />
         <div style={{ fontSize: '0.95rem', color: 'var(--color-text)', opacity: 0.7 }}>
           <span>{getText(poem.author.chinese)}</span>
           <span style={{ margin: '0 0.5rem' }}>·</span>

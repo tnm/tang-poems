@@ -1026,23 +1026,35 @@ export const poems: Poem[] = [
     formEnglish: 'Seven-character quatrain',
     verses: [
       {
-        chinese: '渭城朝雨浥輕塵',
-        pinyin: 'Wèi chéng zhāo yǔ yì qīng chén',
+        chinese: {
+          traditional: '渭城朝雨浥輕塵',
+          simplified: '渭城朝雨浥轻尘',
+          pinyin: 'Wèi chéng zhāo yǔ yì qīng chén',
+        },
         english: 'Morning rain in Weicheng dampens the light dust.',
       },
       {
-        chinese: '客舍青青柳色新',
-        pinyin: 'Kè shè qīng qīng liǔ sè xīn',
+        chinese: {
+          traditional: '客舍青青柳色新',
+          simplified: '客舍青青柳色新',
+          pinyin: 'Kè shè qīng qīng liǔ sè xīn',
+        },
         english: 'Green, green by the inn are the fresh willows.',
       },
       {
-        chinese: '勸君更盡一杯酒',
-        pinyin: 'Quàn jūn gèng jìn yī bēi jiǔ',
+        chinese: {
+          traditional: '勸君更盡一杯酒',
+          simplified: '劝君更尽一杯酒',
+          pinyin: 'Quàn jūn gèng jìn yī bēi jiǔ',
+        },
         english: 'I urge you to drink one more cup of wine,',
       },
       {
-        chinese: '西出陽關無故人',
-        pinyin: 'Xī chū yáng guān wú gù rén',
+        chinese: {
+          traditional: '西出陽關無故人',
+          simplified: '西出阳关无故人',
+          pinyin: 'Xī chū yáng guān wú gù rén',
+        },
         english: 'For west of Yang Pass, dear friends will be none.',
       },
     ],
@@ -1072,23 +1084,35 @@ export const poems: Poem[] = [
     formEnglish: 'Seven-character quatrain',
     verses: [
       {
-        chinese: '秦時明月漢時關',
-        pinyin: 'Qín shí míng yuè Hàn shí guān',
+        chinese: {
+          traditional: '秦時明月漢時關',
+          simplified: '秦时明月汉时关',
+          pinyin: 'Qín shí míng yuè Hàn shí guān',
+        },
         english: 'The moon of Qin times lights the passes of Han.',
       },
       {
-        chinese: '萬里長征人未還',
-        pinyin: 'Wàn lǐ cháng zhēng rén wèi huán',
+        chinese: {
+          traditional: '萬里長征人未還',
+          simplified: '万里长征人未还',
+          pinyin: 'Wàn lǐ cháng zhēng rén wèi huán',
+        },
         english: 'For ten thousand miles, soldiers march, none returning.',
       },
       {
-        chinese: '但使龍城飛將在',
-        pinyin: 'Dàn shǐ Lóng chéng fēi jiàng zài',
+        chinese: {
+          traditional: '但使龍城飛將在',
+          simplified: '但使龙城飞将在',
+          pinyin: 'Dàn shǐ Lóng chéng fēi jiàng zài',
+        },
         english: 'If only the flying general of Longcheng were here,',
       },
       {
-        chinese: '不教胡馬度陰山',
-        pinyin: 'Bù jiào Hú mǎ dù Yīn shān',
+        chinese: {
+          traditional: '不教胡馬度陰山',
+          simplified: '不教胡马度阴山',
+          pinyin: 'Bù jiào Hú mǎ dù Yīn shān',
+        },
         english: 'No foreign horses would cross Mount Yin.',
       },
     ],
@@ -1118,43 +1142,67 @@ export const poems: Poem[] = [
     formEnglish: 'Five-character regulated verse',
     verses: [
       {
-        chinese: '好雨知時節',
-        pinyin: 'Hǎo yǔ zhī shí jié',
+        chinese: {
+          traditional: '好雨知時節',
+          simplified: '好雨知时节',
+          pinyin: 'Hǎo yǔ zhī shí jié',
+        },
         english: 'A timely rain knows the right season;',
       },
       {
-        chinese: '當春乃發生',
-        pinyin: 'Dāng chūn nǎi fā shēng',
+        chinese: {
+          traditional: '當春乃發生',
+          simplified: '当春乃发生',
+          pinyin: 'Dāng chūn nǎi fā shēng',
+        },
         english: 'It comes when spring arrives.',
       },
       {
-        chinese: '隨風潛入夜',
-        pinyin: 'Suí fēng qián rù yè',
+        chinese: {
+          traditional: '隨風潛入夜',
+          simplified: '随风潜入夜',
+          pinyin: 'Suí fēng qián rù yè',
+        },
         english: 'Riding the wind, it steals into the night,',
       },
       {
-        chinese: '潤物細無聲',
-        pinyin: 'Rùn wù xì wú shēng',
+        chinese: {
+          traditional: '潤物細無聲',
+          simplified: '润物细无声',
+          pinyin: 'Rùn wù xì wú shēng',
+        },
         english: 'Softly nourishing all things, silent and unseen.',
       },
       {
-        chinese: '野徑雲俱黑',
-        pinyin: 'Yě jìng yún jù hēi',
+        chinese: {
+          traditional: '野徑雲俱黑',
+          simplified: '野径云俱黑',
+          pinyin: 'Yě jìng yún jù hēi',
+        },
         english: 'Dark clouds enshroud the wild paths,',
       },
       {
-        chinese: '江船火獨明',
-        pinyin: 'Jiāng chuán huǒ dú míng',
+        chinese: {
+          traditional: '江船火獨明',
+          simplified: '江船火独明',
+          pinyin: 'Jiāng chuán huǒ dú míng',
+        },
         english: 'Only riverboat lights glow alone.',
       },
       {
-        chinese: '曉看紅濕處',
-        pinyin: 'Xiǎo kàn hóng shī chù',
+        chinese: {
+          traditional: '曉看紅濕處',
+          simplified: '晓看红湿处',
+          pinyin: 'Xiǎo kàn hóng shī chù',
+        },
         english: 'At dawn, behold the crimson of moist blossoms,',
       },
       {
-        chinese: '花重錦官城',
-        pinyin: 'Huā zhòng jǐn guān chéng',
+        chinese: {
+          traditional: '花重錦官城',
+          simplified: '花重锦官城',
+          pinyin: 'Huā zhòng jǐn guān chéng',
+        },
         english: 'Flowers heavy in brocaded Chengdu.',
       },
     ],
@@ -1184,23 +1232,35 @@ export const poems: Poem[] = [
     formEnglish: 'Five-character quatrain',
     verses: [
       {
-        chinese: '向晚意不適',
-        pinyin: 'Xiàng wǎn yì bù shì',
+        chinese: {
+          traditional: '向晚意不適',
+          simplified: '向晚意不适',
+          pinyin: 'Xiàng wǎn yì bù shì',
+        },
         english: 'As evening comes, I feel ill at ease;',
       },
       {
-        chinese: '驅車登古原',
-        pinyin: 'Qū chē dēng gǔ yuán',
+        chinese: {
+          traditional: '驅車登古原',
+          simplified: '驱车登古原',
+          pinyin: 'Qū chē dēng gǔ yuán',
+        },
         english: 'I drive my cart to the ancient plateau.',
       },
       {
-        chinese: '夕陽無限好',
-        pinyin: 'Xī yáng wú xiàn hǎo',
+        chinese: {
+          traditional: '夕陽無限好',
+          simplified: '夕阳无限好',
+          pinyin: 'Xī yáng wú xiàn hǎo',
+        },
         english: 'The sunset is boundlessly beautiful,',
       },
       {
-        chinese: '只是近黃昏',
-        pinyin: 'Zhǐ shì jìn huáng hūn',
+        chinese: {
+          traditional: '只是近黃昏',
+          simplified: '只是近黄昏',
+          pinyin: 'Zhǐ shì jìn huáng hūn',
+        },
         english: 'Yet it draws so close to dusk.',
       },
     ],
@@ -1230,23 +1290,35 @@ export const poems: Poem[] = [
     formEnglish: 'Five-character quatrain',
     verses: [
       {
-        chinese: '日暮蒼山遠',
-        pinyin: 'Rì mù cāng shān yuǎn',
+        chinese: {
+          traditional: '日暮蒼山遠',
+          simplified: '日暮苍山远',
+          pinyin: 'Rì mù cāng shān yuǎn',
+        },
         english: 'At dusk, the distant mountains turn blue and far;',
       },
       {
-        chinese: '天寒白屋貧',
-        pinyin: 'Tiān hán bái wū pín',
+        chinese: {
+          traditional: '天寒白屋貧',
+          simplified: '天寒白屋贫',
+          pinyin: 'Tiān hán bái wū pín',
+        },
         english: 'In the cold sky, a simple hut stands in poverty.',
       },
       {
-        chinese: '柴門聞犬吠',
-        pinyin: 'Chái mén wén quǎn fèi',
+        chinese: {
+          traditional: '柴門聞犬吠',
+          simplified: '柴门闻犬吠',
+          pinyin: 'Chái mén wén quǎn fèi',
+        },
         english: 'By the brushwood gate, I hear dogs bark,',
       },
       {
-        chinese: '風雪夜歸人',
-        pinyin: 'Fēng xuě yè guī rén',
+        chinese: {
+          traditional: '風雪夜歸人',
+          simplified: '风雪夜归人',
+          pinyin: 'Fēng xuě yè guī rén',
+        },
         english: 'As someone returns through wind and snow.',
       },
     ],
@@ -1276,23 +1348,35 @@ export const poems: Poem[] = [
     formEnglish: 'Seven-character quatrain',
     verses: [
       {
-        chinese: '遠上寒山石徑斜',
-        pinyin: 'Yuǎn shàng hán shān shí jìng xié',
+        chinese: {
+          traditional: '遠上寒山石徑斜',
+          simplified: '远上寒山石径斜',
+          pinyin: 'Yuǎn shàng hán shān shí jìng xié',
+        },
         english: 'Far up the cold mountain, a stone path winds steeply.',
       },
       {
-        chinese: '白雲生處有人家',
-        pinyin: 'Bái yún shēng chù yǒu rén jiā',
+        chinese: {
+          traditional: '白雲生處有人家',
+          simplified: '白云生处有人家',
+          pinyin: 'Bái yún shēng chù yǒu rén jiā',
+        },
         english: 'Where white clouds arise, there dwell folk in huts.',
       },
       {
-        chinese: '停車坐愛楓林晚',
-        pinyin: 'Tíng chē zuò ài fēng lín wǎn',
+        chinese: {
+          traditional: '停車坐愛楓林晚',
+          simplified: '停车坐爱枫林晚',
+          pinyin: 'Tíng chē zuò ài fēng lín wǎn',
+        },
         english: 'I halt my carriage, entranced by the maple forest at dusk,',
       },
       {
-        chinese: '霜葉紅於二月花',
-        pinyin: 'Shuāng yè hóng yú èr yuè huā',
+        chinese: {
+          traditional: '霜葉紅於二月花',
+          simplified: '霜叶红于二月花',
+          pinyin: 'Shuāng yè hóng yú èr yuè huā',
+        },
         english: 'Frost-touched leaves glow redder than flowers in spring.',
       },
     ],
@@ -1322,23 +1406,35 @@ export const poems: Poem[] = [
     formEnglish: 'Seven-character quatrain',
     verses: [
       {
-        chinese: '千里鶯啼綠映紅',
-        pinyin: 'Qiān lǐ yīng tí lǜ yìng hóng',
+        chinese: {
+          traditional: '千里鶯啼綠映紅',
+          simplified: '千里莺啼绿映红',
+          pinyin: 'Qiān lǐ yīng tí lǜ yìng hóng',
+        },
         english: 'For a thousand miles, orioles sing amid green and red,',
       },
       {
-        chinese: '水村山郭酒旗風',
-        pinyin: 'Shuǐ cūn shān guō jiǔ qí fēng',
+        chinese: {
+          traditional: '水村山郭酒旗風',
+          simplified: '水村山郭酒旗风',
+          pinyin: 'Shuǐ cūn shān guō jiǔ qí fēng',
+        },
         english: 'Wine flags flutter in the breeze by riverside towns and hills.',
       },
       {
-        chinese: '南朝四百八十寺',
-        pinyin: 'Nán cháo sì bǎi bā shí sì',
+        chinese: {
+          traditional: '南朝四百八十寺',
+          simplified: '南朝四百八十寺',
+          pinyin: 'Nán cháo sì bǎi bā shí sì',
+        },
         english: 'Four hundred and eighty temples from the Southern Dynasties,',
       },
       {
-        chinese: '多少樓臺煙雨中',
-        pinyin: 'Duō shǎo lóu tái yān yǔ zhōng',
+        chinese: {
+          traditional: '多少樓臺煙雨中',
+          simplified: '多少楼台烟雨中',
+          pinyin: 'Duō shǎo lóu tái yān yǔ zhōng',
+        },
         english: 'How many towers and terraces lie in mist and drizzling rain?',
       },
     ],
@@ -1368,23 +1464,35 @@ export const poems: Poem[] = [
     formEnglish: 'Five-character quatrain',
     verses: [
       {
-        chinese: '移舟泊煙渚',
-        pinyin: 'Yí zhōu bó yān zhǔ',
+        chinese: {
+          traditional: '移舟泊煙渚',
+          simplified: '移舟泊烟渚',
+          pinyin: 'Yí zhōu bó yān zhǔ',
+        },
         english: 'I move my boat and moor by a misty islet,',
       },
       {
-        chinese: '日暮客愁新',
-        pinyin: 'Rì mù kè chóu xīn',
+        chinese: {
+          traditional: '日暮客愁新',
+          simplified: '日暮客愁新',
+          pinyin: 'Rì mù kè chóu xīn',
+        },
         english: 'At dusk, the traveler’s sorrow grows anew.',
       },
       {
-        chinese: '野曠天低樹',
-        pinyin: 'Yě kuàng tiān dī shù',
+        chinese: {
+          traditional: '野曠天低樹',
+          simplified: '野旷天低树',
+          pinyin: 'Yě kuàng tiān dī shù',
+        },
         english: 'Vast the wilds, the sky hangs low upon the trees;',
       },
       {
-        chinese: '江清月近人',
-        pinyin: 'Jiāng qīng yuè jìn rén',
+        chinese: {
+          traditional: '江清月近人',
+          simplified: '江清月近人',
+          pinyin: 'Jiāng qīng yuè jìn rén',
+        },
         english: 'In the clear river, the moon seems close at hand.',
       },
     ],
@@ -1891,7 +1999,7 @@ export const poems: Poem[] = [
           simplified: '星桥铁锁开',
           pinyin: 'Xīng qiáo tiě suǒ kāi',
         },
-        english: 'Starry bridges, iron locks thrown open',
+        english: 'Starry bridges, iron locks thrown open'
       },
       {
         chinese: {
@@ -1899,7 +2007,7 @@ export const poems: Poem[] = [
           simplified: '暗尘随马去',
           pinyin: 'Àn chén suí mǎ qù',
         },
-        english: 'Night dust follows the horses away',
+        english: 'Night dust follows the horses away'
       },
       {
         chinese: {
@@ -1907,7 +2015,7 @@ export const poems: Poem[] = [
           simplified: '明月来相照',
           pinyin: 'Míng yuè lái xiāng zhào',
         },
-        english: 'The bright moon arrives to shine on me',
+        english: 'The bright moon arrives to shine on me.'
       },
       {
         chinese: {
@@ -1915,7 +2023,7 @@ export const poems: Poem[] = [
           simplified: '游妓皆薔薇',
           pinyin: 'Yóu jì jiē qiáng wéi',
         },
-        english: 'Courtesans wander, all in rose-like finery',
+        english: 'Courtesans wander, all in rose-like finery'
       },
       {
         chinese: {
@@ -1923,7 +2031,7 @@ export const poems: Poem[] = [
           simplified: '行歌尽落梅',
           pinyin: 'Xíng gē jìn luò méi',
         },
-        english: 'Their singing drifts like falling plum blossoms',
+        english: 'Their singing drifts like falling plum blossoms'
       },
       {
         chinese: {
@@ -1931,7 +2039,7 @@ export const poems: Poem[] = [
           simplified: '金吾不禁夜',
           pinyin: 'Jīn wú bù jìn yè',
         },
-        english: 'The guards do not forbid the night',
+        english: 'The guards do not forbid the night'
       },
       {
         chinese: {
@@ -1939,7 +2047,7 @@ export const poems: Poem[] = [
           simplified: '玉漏莫相催',
           pinyin: 'Yù lòu mò xiāng cuī',
         },
-        english: 'Let not the jade water clock hurry the hours away',
+        english: 'Let not the jade water clock hurry the hours away'
       },
     ],
   },
@@ -1973,7 +2081,7 @@ export const poems: Poem[] = [
           simplified: '玉漏银壶且莫催',
           pinyin: 'Yù lòu yín hú qiě mò cuī',
         },
-        english: 'Let the jade water clock and silver urn not press the hours',
+        english: 'Let the jade water clock and silver urn not press the hours'
       },
       {
         chinese: {
@@ -1981,7 +2089,7 @@ export const poems: Poem[] = [
           simplified: '铁关金锁彻明开',
           pinyin: 'Tiě guān jīn suǒ chè míng kāi',
         },
-        english: 'Iron gates and golden locks stand open till dawn',
+        english: 'Iron gates and golden locks stand open till dawn'
       },
       {
         chinese: {
@@ -1989,7 +2097,7 @@ export const poems: Poem[] = [
           simplified: '谁家见月能闲坐',
           pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
         },
-        english: 'Who, seeing the moon, could remain quietly at home?',
+        english: 'Who, seeing the moon, could remain quietly at home?'
       },
       {
         chinese: {
@@ -1997,7 +2105,7 @@ export const poems: Poem[] = [
           simplified: '何处闻灯不看来',
           pinyin: 'Hé chù wén dēng bù kàn lái',
         },
-        english: 'Where lanterns glow, who would not go to watch?',
+        english: 'Where lanterns glow, who would not go to watch?'
       },
     ],
   },
@@ -2031,7 +2139,7 @@ export const poems: Poem[] = [
           simplified: '千门开锁万灯明',
           pinyin: 'Qiān mén kāi suǒ wàn dēng míng',
         },
-        english: 'A thousand gates unlocked, ten thousand lanterns bright',
+        english: 'A thousand gates unlocked, ten thousand lanterns bright'
       },
       {
         chinese: {
@@ -2039,7 +2147,7 @@ export const poems: Poem[] = [
           simplified: '正月中旬动帝京',
           pinyin: 'Zhèng yuè zhōng xún dòng dì jīng',
         },
-        english: 'In mid-first month, the imperial capital stirs',
+        english: 'In mid-first month, the imperial capital stirs'
       },
       {
         chinese: {
@@ -2047,7 +2155,7 @@ export const poems: Poem[] = [
           simplified: '三百内人连袖舞',
           pinyin: 'Sān bǎi nèi rén lián xiù wǔ',
         },
-        english: 'Three hundred palace ladies dance, sleeves linked',
+        english: 'Three hundred palace ladies dance, sleeves linked'
       },
       {
         chinese: {
@@ -2055,7 +2163,7 @@ export const poems: Poem[] = [
           simplified: '一声菩萨万人惊',
           pinyin: 'Yī shēng pú sà wàn rén jīng',
         },
-        english: 'One cry of “Bodhisattva!” startles ten thousand souls',
+        english: 'One cry of “Bodhisattva!” startles ten thousand souls'
       },
     ],
   },

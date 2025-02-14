@@ -1,5 +1,6 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
@@ -19,7 +20,7 @@
   --color-hover: rgba(139, 69, 19, 0.05);
   --color-accent: #8b4513;
   /* Fonts */
-  --font-chinese: 'Noto Serif TC', serif;
+  --font-chinese: 'Noto Serif TC', 'Noto Serif SC', serif;
   --font-english: 'EB Garamond', serif;
   --font-pinyin: 'Inter', sans-serif;
   color-scheme: light;
@@ -91,7 +92,7 @@
 
 /* Poem specific styles */
 .verse-chinese {
-  font-family: 'Noto Serif TC', serif;
+  font-family: 'Noto Serif TC', 'Noto Serif SC', serif;
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }

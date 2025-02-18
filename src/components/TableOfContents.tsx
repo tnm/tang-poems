@@ -23,7 +23,7 @@ export default function TableOfContents() {
   const authorOptions = useMemo(() => {
     const authorCounts = poems.reduce(
       (acc, poem) => {
-        const key = `${poem.author.chinese}|${poem.author.english}`;
+        const key = `${poem.author.chinese.traditional}|${poem.author.english}`;
         acc[key] = (acc[key] || 0) + 1;
         return acc;
       },
@@ -62,7 +62,7 @@ export default function TableOfContents() {
 
         // Author filter
         if (filters.author) {
-          const poemAuthorKey = `${poem.author.chinese}|${poem.author.english}`;
+          const poemAuthorKey = `${poem.author.chinese.traditional}|${poem.author.english}`;
           if (poemAuthorKey !== filters.author) return false;
         }
 

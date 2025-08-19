@@ -2550,7 +2550,7 @@ const basePoems: Poem[] = [
           simplified: '无人知是荔枝来',
           pinyin: 'Wú rén zhī shì lì zhī lái',
         },
-        english: "No one knows fresh lychees have arrived",
+        english: "No one knows he's brought her fresh lychees",
       },
     ],
   },

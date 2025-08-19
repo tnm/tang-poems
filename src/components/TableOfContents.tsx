@@ -55,7 +55,8 @@ export default function TableOfContents() {
         if (searchTerm) {
           const searchLower = searchTerm.toLowerCase();
           const matchesSearch =
-            poem.title.chinese.toLowerCase().includes(searchLower) ||
+            poem.title.chinese.traditional.toLowerCase().includes(searchLower) ||
+            poem.title.chinese.simplified.toLowerCase().includes(searchLower) ||
             poem.title.english.toLowerCase().includes(searchLower);
           if (!matchesSearch) return false;
         }
@@ -67,8 +68,9 @@ export default function TableOfContents() {
         }
 
         // Form filter
-        if (filters.form && poem.form !== filters.form) {
-          return false;
+        if (filters.form && poem.form) {
+          const formKey = `${poem.form.traditional}|${poem.form.simplified}`;
+          if (formKey !== filters.form) return false;
         }
 
         return true;

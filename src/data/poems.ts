@@ -1609,7 +1609,7 @@ const basePoems: Poem[] = [
           simplified: '日照香炉生紫烟',
           pinyin: 'Rì zhào xiāng lú shēng zǐ yān',
         },
-        english: 'Incense Burner Peak glows with purple mist in sunlight,',
+        english: 'Incense Burner Peak glows with purple smoke in sunlight,',
       },
       {
         chinese: {
@@ -1617,7 +1617,7 @@ const basePoems: Poem[] = [
           simplified: '遥看瀑布挂前川',
           pinyin: 'Yáo kàn pù bù guà qián chuān',
         },
-        english: 'From afar, I see the waterfall hanging before the stream.',
+        english: 'From afar I see the waterfall hanging before the river.',
       },
       {
         chinese: {
@@ -1625,7 +1625,7 @@ const basePoems: Poem[] = [
           simplified: '飞流直下三千尺',
           pinyin: 'Fēi liú zhí xià sān qiān chǐ',
         },
-        english: 'Its torrent pours down three thousand feet,',
+        english: 'Flying waters plunge three thousand feet,',
       },
       {
         chinese: {
@@ -1633,7 +1633,7 @@ const basePoems: Poem[] = [
           simplified: '疑是银河落九天',
           pinyin: 'Yí shì yín hé luò jiǔ tiān',
         },
-        english: 'As though the Milky Way were falling from heaven.',
+        english: 'I suspect it is the Milky Way falling from heaven.',
       },
     ],
   },

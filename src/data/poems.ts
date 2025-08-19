@@ -730,64 +730,6 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'night-rain-sent-north',
-    title: {
-      chinese: {
-        traditional: '夜雨寄北',
-        simplified: '夜雨寄北',
-        pinyin: 'Yè Yǔ Jì Běi',
-      },
-      english: 'Night Rain Sent North',
-    },
-    author: {
-      chinese: {
-        traditional: '李商隱',
-        simplified: '李商隐',
-        pinyin: 'Lǐ Shāngyǐn',
-      },
-      english: 'Li Shangyin',
-    },
-    form: {
-      traditional: '五言律詩',
-      simplified: '五言律诗',
-    },
-    formEnglish: 'Five-character regulated verse',
-    verses: [
-      {
-        chinese: {
-          traditional: '君問歸期未有期',
-          simplified: '君问归期未有期',
-          pinyin: 'Jūn wèn guī qī wèi yǒu qī',
-        },
-        english: 'You ask when I will return, but I cannot say',
-      },
-      {
-        chinese: {
-          traditional: '巴山夜雨漲秋池',
-          simplified: '巴山夜雨涨秋池',
-          pinyin: 'Bā shān yè yǔ zhǎng qiū chí',
-        },
-        english: 'Night rain in Ba Mountain swells the autumn pools',
-      },
-      {
-        chinese: {
-          traditional: '何當共剪西窗燭',
-          simplified: '何当共剪西窗烛',
-          pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
-        },
-        english: 'When can we trim the candle by the west window',
-      },
-      {
-        chinese: {
-          traditional: '卻話巴山夜雨時',
-          simplified: '却话巴山夜雨时',
-          pinyin: 'Què huà bā shān yè yǔ shí',
-        },
-        english: 'And talk about this night rain in Ba Mountain?',
-      },
-    ],
-  },
-  {
     id: 'farewell-to-a-friend-li-bai',
     title: {
       chinese: {
@@ -2294,57 +2236,6 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'climbing-stork-tower',
-    title: {
-      chinese: {
-        traditional: '登鸛雀樓',
-        simplified: '登鹳雀楼',
-        pinyin: 'Dēng Guàn Què Lóu',
-      },
-      english: 'Climbing Stork Tower',
-    },
-    author: {
-      chinese: { traditional: '王之渙', simplified: '王之涣', pinyin: 'Wáng Zhī Huàn' },
-      english: 'Wang Zhihuan',
-    },
-    form: { traditional: '五言絕句', simplified: '五言绝句' },
-    formEnglish: 'Five-character quatrain',
-    verses: [
-      {
-        chinese: {
-          traditional: '白日依山盡',
-          simplified: '白日依山尽',
-          pinyin: 'Bái rì yī shān jìn',
-        },
-        english: 'The white sun sinks behind the mountains',
-      },
-      {
-        chinese: {
-          traditional: '黃河入海流',
-          simplified: '黄河入海流',
-          pinyin: 'Huáng hé rù hǎi liú',
-        },
-        english: 'The Yellow River flows into the sea',
-      },
-      {
-        chinese: {
-          traditional: '欲窮千里目',
-          simplified: '欲穷千里目',
-          pinyin: 'Yù qióng qiān lǐ mù',
-        },
-        english: 'To see a thousand miles',
-      },
-      {
-        chinese: {
-          traditional: '更上一層樓',
-          simplified: '更上一层楼',
-          pinyin: 'Gèng shàng yī céng lóu',
-        },
-        english: 'Climb one floor higher',
-      },
-    ],
-  },
-  {
     id: 'song-of-everlasting-sorrow',
     title: {
       chinese: {
@@ -2498,89 +2389,6 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'spring-morning-rain',
-    title: {
-      chinese: {
-        traditional: '春夜喜雨',
-        simplified: '春夜喜雨',
-        pinyin: 'Chūn Yè Xǐ Yǔ',
-      },
-      english: 'Spring Night Rain',
-    },
-    author: {
-      chinese: { traditional: '杜甫', simplified: '杜甫', pinyin: 'Dù Fǔ' },
-      english: 'Du Fu',
-    },
-    form: { traditional: '五言律詩', simplified: '五言律诗' },
-    formEnglish: 'Five-character regulated verse',
-    verses: [
-      {
-        chinese: {
-          traditional: '好雨知時節',
-          simplified: '好雨知时节',
-          pinyin: 'Hǎo yǔ zhī shí jié',
-        },
-        english: 'Good rain knows its season',
-      },
-      {
-        chinese: {
-          traditional: '當春乃發生',
-          simplified: '当春乃发生',
-          pinyin: 'Dāng chūn nǎi fā shēng',
-        },
-        english: 'Coming with spring, it brings life',
-      },
-      {
-        chinese: {
-          traditional: '隨風潛入夜',
-          simplified: '随风潜入夜',
-          pinyin: 'Suí fēng qián rù yè',
-        },
-        english: 'Following wind, it slips into night',
-      },
-      {
-        chinese: {
-          traditional: '潤物細無聲',
-          simplified: '润物细无声',
-          pinyin: 'Rùn wù xì wú shēng',
-        },
-        english: 'Moistening things, fine and silent',
-      },
-      {
-        chinese: {
-          traditional: '野徑雲俱黑',
-          simplified: '野径云俱黑',
-          pinyin: 'Yě jìng yún jù hēi',
-        },
-        english: 'Country paths and clouds all dark',
-      },
-      {
-        chinese: {
-          traditional: '江船火獨明',
-          simplified: '江船火独明',
-          pinyin: 'Jiāng chuán huǒ dú míng',
-        },
-        english: 'River boat lights alone shine bright',
-      },
-      {
-        chinese: {
-          traditional: '曉看紅濕處',
-          simplified: '晓看红湿处',
-          pinyin: 'Xiǎo kàn hóng shī chù',
-        },
-        english: 'At dawn, the blossoms red and wet',
-      },
-      {
-        chinese: {
-          traditional: '花重錦官城',
-          simplified: '花重锦官城',
-          pinyin: 'Huā zhòng jǐn guān chéng',
-        },
-        english: 'Flowers weigh heavy in Brocade City',
-      },
-    ],
-  },
-  {
     id: 'moonlit-night',
     title: {
       chinese: {
@@ -2715,57 +2523,6 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'sent-north-on-rainy-night',
-    title: {
-      chinese: {
-        traditional: '夜雨寄北',
-        simplified: '夜雨寄北',
-        pinyin: 'Yè Yǔ Jì Běi',
-      },
-      english: 'Night Rain, Sent North',
-    },
-    author: {
-      chinese: { traditional: '李商隱', simplified: '李商隐', pinyin: 'Lǐ Shāng Yǐn' },
-      english: 'Li Shangyin',
-    },
-    form: { traditional: '七言絕句', simplified: '七言绝句' },
-    formEnglish: 'Seven-character quatrain',
-    verses: [
-      {
-        chinese: {
-          traditional: '君問歸期未有期',
-          simplified: '君问归期未有期',
-          pinyin: 'Jūn wèn guī qī wèi yǒu qī',
-        },
-        english: 'You ask when I will return—I have no date',
-      },
-      {
-        chinese: {
-          traditional: '巴山夜雨漲秋池',
-          simplified: '巴山夜雨涨秋池',
-          pinyin: 'Bā shān yè yǔ zhǎng qiū chí',
-        },
-        english: 'Night rain on Ba Mountain swells the autumn pool',
-      },
-      {
-        chinese: {
-          traditional: '何當共剪西窗燭',
-          simplified: '何当共剪西窗烛',
-          pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
-        },
-        english: 'When shall we together trim the candle by the western window',
-      },
-      {
-        chinese: {
-          traditional: '卻話巴山夜雨時',
-          simplified: '却话巴山夜雨时',
-          pinyin: 'Què huà bā shān yè yǔ shí',
-        },
-        english: 'And speak of this night rain on Ba Mountain?',
-      },
-    ],
-  },
-  {
     id: 'spring-river-flower-moon-night',
     title: {
       chinese: {
@@ -2817,155 +2574,53 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'departing-from-baidi-city',
+    id: 'night-rain-sent-north',
     title: {
       chinese: {
-        traditional: '早發白帝城',
-        simplified: '早发白帝城',
-        pinyin: 'Zǎo Fā Bái Dì Chéng',
+        traditional: '夜雨寄北',
+        simplified: '夜雨寄北',
+        pinyin: 'Yè Yǔ Jì Běi',
       },
-      english: 'Departing from Baidi City at Dawn',
+      english: 'Night Rain, Sent North',
     },
     author: {
-      chinese: { traditional: '李白', simplified: '李白', pinyin: 'Lǐ Bái' },
-      english: 'Li Bai',
+      chinese: { traditional: '李商隱', simplified: '李商隐', pinyin: 'Lǐ Shāng Yǐn' },
+      english: 'Li Shangyin',
     },
     form: { traditional: '七言絕句', simplified: '七言绝句' },
     formEnglish: 'Seven-character quatrain',
     verses: [
       {
         chinese: {
-          traditional: '朝辭白帝彩雲間',
-          simplified: '朝辞白帝彩云间',
-          pinyin: 'Zhāo cí bái dì cǎi yún jiān',
+          traditional: '君問歸期未有期',
+          simplified: '君问归期未有期',
+          pinyin: 'Jūn wèn guī qī wèi yǒu qī',
         },
-        english: 'At dawn, leaving Baidi among colored clouds',
+        english: 'You ask when I will return—there is no date',
       },
       {
         chinese: {
-          traditional: '千里江陵一日還',
-          simplified: '千里江陵一日还',
-          pinyin: 'Qiān lǐ jiāng líng yī rì huán',
+          traditional: '巴山夜雨漲秋池',
+          simplified: '巴山夜雨涨秋池',
+          pinyin: 'Bā shān yè yǔ zhǎng qiū chí',
         },
-        english: 'A thousand miles to Jiangling, returned in a day',
+        english: 'Night rain in the mountains of Ba fills the autumn pools',
       },
       {
         chinese: {
-          traditional: '兩岸猿聲啼不住',
-          simplified: '两岸猿声啼不住',
-          pinyin: 'Liǎng àn yuán shēng tí bù zhù',
+          traditional: '何當共剪西窗燭',
+          simplified: '何当共剪西窗烛',
+          pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
         },
-        english: 'Monkeys cry ceaselessly on both banks',
+        english: 'When shall we trim the candle by the western window',
       },
       {
         chinese: {
-          traditional: '輕舟已過萬重山',
-          simplified: '轻舟已过万重山',
-          pinyin: 'Qīng zhōu yǐ guò wàn chóng shān',
+          traditional: '卻話巴山夜雨時',
+          simplified: '却话巴山夜雨时',
+          pinyin: 'Què huà bā shān yè yǔ shí',
         },
-        english: 'My light boat has passed ten thousand mountains',
-      },
-    ],
-  },
-  {
-    id: 'thoughts-on-a-quiet-night',
-    title: {
-      chinese: {
-        traditional: '靜夜思',
-        simplified: '静夜思',
-        pinyin: 'Jìng Yè Sī',
-      },
-      english: 'Thoughts on a Quiet Night',
-    },
-    author: {
-      chinese: { traditional: '李白', simplified: '李白', pinyin: 'Lǐ Bái' },
-      english: 'Li Bai',
-    },
-    form: { traditional: '五言絕句', simplified: '五言绝句' },
-    formEnglish: 'Five-character quatrain',
-    verses: [
-      {
-        chinese: {
-          traditional: '床前明月光',
-          simplified: '床前明月光',
-          pinyin: 'Chuáng qián míng yuè guāng',
-        },
-        english: 'Before my bed, bright moonlight',
-      },
-      {
-        chinese: {
-          traditional: '疑是地上霜',
-          simplified: '疑是地上霜',
-          pinyin: 'Yí shì dì shàng shuāng',
-        },
-        english: 'I think it is frost upon the ground',
-      },
-      {
-        chinese: {
-          traditional: '舉頭望明月',
-          simplified: '举头望明月',
-          pinyin: 'Jǔ tóu wàng míng yuè',
-        },
-        english: 'I raise my head to see the bright moon',
-      },
-      {
-        chinese: {
-          traditional: '低頭思故鄉',
-          simplified: '低头思故乡',
-          pinyin: 'Dī tóu sī gù xiāng',
-        },
-        english: 'Lower it, and think of home',
-      },
-    ],
-  },
-  {
-    id: 'lushan-waterfall',
-    title: {
-      chinese: {
-        traditional: '望廬山瀑布',
-        simplified: '望庐山瀑布',
-        pinyin: 'Wàng Lú Shān Pù Bù',
-      },
-      english: 'Viewing the Waterfall at Mount Lu',
-    },
-    author: {
-      chinese: { traditional: '李白', simplified: '李白', pinyin: 'Lǐ Bái' },
-      english: 'Li Bai',
-    },
-    form: { traditional: '七言絕句', simplified: '七言绝句' },
-    formEnglish: 'Seven-character quatrain',
-    verses: [
-      {
-        chinese: {
-          traditional: '日照香爐生紫煙',
-          simplified: '日照香炉生紫烟',
-          pinyin: 'Rì zhào xiāng lú shēng zǐ yān',
-        },
-        english: 'Sunlight on Incense Burner Peak raises purple mist',
-      },
-      {
-        chinese: {
-          traditional: '遙看瀑布掛前川',
-          simplified: '遥看瀑布挂前川',
-          pinyin: 'Yáo kàn pù bù guà qián chuān',
-        },
-        english: 'From afar, the waterfall hangs before the river',
-      },
-      {
-        chinese: {
-          traditional: '飛流直下三千尺',
-          simplified: '飞流直下三千尺',
-          pinyin: 'Fēi liú zhí xià sān qiān chǐ',
-        },
-        english: 'Flying waters plunge straight down three thousand feet',
-      },
-      {
-        chinese: {
-          traditional: '疑是銀河落九天',
-          simplified: '疑是银河落九天',
-          pinyin: 'Yí shì yín hé luò jiǔ tiān',
-        },
-        english: 'As if the Milky Way fell from the ninth heaven',
+        english: 'And talk together of night rain in the mountains of Ba',
       },
     ],
   },

@@ -45,7 +45,7 @@ export default function PoemNavigation({ prevPoem, nextPoem }: PoemNavigationPro
           gap: '0.5rem',
         }}
       >
-        ← {prevPoem.title.chinese}
+        ← {prevPoem.title.chinese.traditional}
       </Link>
       <Link
         to={`/poem/${nextPoem.id}`}
@@ -59,7 +59,7 @@ export default function PoemNavigation({ prevPoem, nextPoem }: PoemNavigationPro
           gap: '0.5rem',
         }}
       >
-        {nextPoem.title.chinese} →
+        {nextPoem.title.chinese.traditional} →
       </Link>
     </div>
   );

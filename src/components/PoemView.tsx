@@ -24,6 +24,11 @@ export default function PoemView() {
     return () => mediaQuery.removeEventListener('change', handleResize);
   }, []);
 
+  // Scroll to top when poem changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [poemId]);
+
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'ArrowLeft') {

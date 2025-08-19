@@ -203,7 +203,7 @@ const basePoems: Poem[] = [
           simplified: '此物最相思',
           pinyin: 'Cǐ wù zuì xiāng sī',
         },
-        english: 'They have all have my yearning for you',
+        english: 'For they speak most of my longing',
       },
     ],
   },
@@ -458,10 +458,10 @@ const basePoems: Poem[] = [
       english: 'Cui Hao',
     },
     form: {
-      traditional: '七言絕句',
-      simplified: '七言绝句',
+      traditional: '七言律詩',
+      simplified: '七言律诗',
     },
-    formEnglish: 'Seven-character quatrain',
+    formEnglish: 'Seven-character regulated verse',
     verses: [
       {
         chinese: {
@@ -469,7 +469,7 @@ const basePoems: Poem[] = [
           simplified: '昔人已乘黄鹤去',
           pinyin: 'Xí rén yǐ chéng huáng hè qù',
         },
-        english: 'The sage of old rode off on a yellow crane',
+        english: 'Long ago the sage rode off on a yellow crane,',
       },
       {
         chinese: {
@@ -477,7 +477,7 @@ const basePoems: Poem[] = [
           simplified: '此地空余黄鹤楼',
           pinyin: 'Cǐ dì kōng yú huáng hè lóu',
         },
-        english: 'Leaving only Yellow Crane Tower behind',
+        english: 'Here remains only the empty Yellow Crane Tower.',
       },
       {
         chinese: {
@@ -485,7 +485,7 @@ const basePoems: Poem[] = [
           simplified: '黄鹤一去不复返',
           pinyin: 'Huáng hè yī qù bù fù fǎn',
         },
-        english: 'The yellow crane never returned',
+        english: 'Once the yellow crane is gone, it will not return,',
       },
       {
         chinese: {
@@ -493,7 +493,39 @@ const basePoems: Poem[] = [
           simplified: '白云千载空悠悠',
           pinyin: 'Bái yún qiān zǎi kōng yōu yōu',
         },
-        english: 'White clouds drift idly for a thousand years',
+        english: 'White clouds drift idly for a thousand years.',
+      },
+      {
+        chinese: {
+          traditional: '晴川歷歷漢陽樹',
+          simplified: '晴川历历汉阳树',
+          pinyin: 'Qíng chuān lì lì Hàn yáng shù',
+        },
+        english: 'In clear sunlight, the trees of Hanyang stand distinct,',
+      },
+      {
+        chinese: {
+          traditional: '芳草萋萋鸚鵡洲',
+          simplified: '芳草萋萋鹦鹉洲',
+          pinyin: 'Fāng cǎo qī qī Yīng wǔ zhōu',
+        },
+        english: 'And fragrant grasses grow lush on Parrot Islet.',
+      },
+      {
+        chinese: {
+          traditional: '日暮鄉關何處是',
+          simplified: '日暮乡关何处是',
+          pinyin: 'Rì mù xiāng guān hé chù shì',
+        },
+        english: 'At sunset, where lies my homeland?',
+      },
+      {
+        chinese: {
+          traditional: '煙波江上使人愁',
+          simplified: '烟波江上使人愁',
+          pinyin: 'Yān bō jiāng shàng shǐ rén chóu',
+        },
+        english: 'On the misty river, sorrow stirs my heart.',
       },
     ],
   },
@@ -1899,7 +1931,7 @@ const basePoems: Poem[] = [
           simplified: '蜀僧抱绿绮',
           pinyin: 'Shǔ sēng bào lǜ qǐ',
         },
-        english: 'A monk from Shu cradles his jade-green lute,',
+        english: 'A monk from Shu cradles his treasured zither,',
       },
       {
         chinese: {

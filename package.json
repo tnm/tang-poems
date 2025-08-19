@@ -13,7 +13,8 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css,md}\"",
     "preview": "vite preview",
     "generate-routes": "vite-node --script ./node_modules/@tanstack/router-vite-plugin/assets/generator.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export:plaintext": "node scripts/export-plaintext.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",

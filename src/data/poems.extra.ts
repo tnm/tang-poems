@@ -17,8 +17,8 @@ export const extraPoems: Poem[] = [
       chinese: { traditional: '李白', simplified: '李白', pinyin: 'Lǐ Bái' },
       english: 'Li Bai',
     },
-    form: { traditional: '七言古詩', simplified: '七言古诗' },
-    formEnglish: 'Seven-character ancient verse',
+    form: { traditional: '五言古詩', simplified: '五言古诗' },
+    formEnglish: 'Five-character ancient verse',
     verses: [
       {
         chinese: {
@@ -227,7 +227,7 @@ export const extraPoems: Poem[] = [
           simplified: '孤帆远影碧空尽',
           pinyin: 'Gū fān yuǎn yǐng bì kōng jìn',
         },
-        english: 'A lone sail\'s distant shadow vanishes in the blue',
+        english: "A lone sail's distant shadow vanishes in the blue",
       },
       {
         chinese: {
@@ -325,9 +325,9 @@ export const extraPoems: Poem[] = [
       },
       {
         chinese: {
-          traditional: '欲窮千里目',
-          simplified: '欲穷千里目',
-          pinyin: 'Yù qióng qiān lǐ mù',
+        traditional: '欲窮千里目',
+        simplified: '欲穷千里目',
+        pinyin: 'Yù qióng qiān lǐ mù',
         },
         english: 'To see a thousand miles',
       },
@@ -495,7 +495,7 @@ export const extraPoems: Poem[] = [
     ],
   },
   {
-    id: 'spring-morning-rain',
+    id: 'spring-night-rain',
     title: {
       chinese: {
         traditional: '春夜喜雨',
@@ -624,7 +624,7 @@ export const extraPoems: Poem[] = [
           simplified: '未解忆长安',
           pinyin: 'Wèi jiě yì cháng ān',
         },
-        english: 'Too young to remember Chang\'an',
+        english: "Too young to remember Chang'an",
       },
       {
         chinese: {
@@ -683,7 +683,7 @@ export const extraPoems: Poem[] = [
           simplified: '长安回望绣成堆',
           pinyin: 'Cháng ān huí wàng xiù chéng duī',
         },
-        english: 'Looking back at Chang\'an, embroidered hills pile up',
+        english: "Looking back at Chang'an, embroidered hills pile up",
       },
       {
         chinese: {
@@ -707,7 +707,7 @@ export const extraPoems: Poem[] = [
           simplified: '无人知是荔枝来',
           pinyin: 'Wú rén zhī shì lì zhī lái',
         },
-        english: 'No one knows it\'s lychees arriving',
+        english: "No one knows it's lychees arriving",
       },
     ],
   },
@@ -758,7 +758,7 @@ export const extraPoems: Poem[] = [
           simplified: '夜半钟声到客船',
           pinyin: 'Yè bàn zhōng shēng dào kè chuán',
         },
-        english: 'Midnight bell reaches the traveler\'s boat',
+        english: "Midnight bell reaches the traveler's boat",
       },
     ],
   },
@@ -1101,5 +1101,3 @@ export const extraPoems: Poem[] = [
     ],
   },
 ];
-
-

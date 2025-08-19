@@ -2502,7 +2502,7 @@ const basePoems: Poem[] = [
           simplified: '山顶千门次第开',
           pinyin: 'Shān dǐng qiān mén cì dì kāi',
         },
-        english: "On the mountain, a thousand gates open one by one",
+        english: "On the mountain, a thousand palace gates open one by one",
       },
       {
         chinese: {
@@ -2510,7 +2510,7 @@ const basePoems: Poem[] = [
           simplified: '一骑红尘妃子笑',
           pinyin: 'Yī qí hóng chén fēi zǐ xiào',
         },
-        english: 'A rider in red dust makes the consort smile',
+        english: 'A single rider in red dust makes the consort smile',
       },
       {
         chinese: {

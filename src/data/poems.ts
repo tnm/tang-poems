@@ -187,7 +187,7 @@ const basePoems: Poem[] = [
           simplified: '春来发几枝',
           pinyin: 'Chūn lái fā jǐ zhī',
         },
-        english: 'In spring how many branches sprout',
+        english: 'In spring a few branches sprout',
       },
       {
         chinese: {
@@ -203,7 +203,7 @@ const basePoems: Poem[] = [
           simplified: '此物最相思',
           pinyin: 'Cǐ wù zuì xiāng sī',
         },
-        english: 'These things most remind me of you',
+        english: 'They have all have my yearning for you',
       },
     ],
   },
@@ -2214,7 +2214,7 @@ const basePoems: Poem[] = [
           simplified: '花间一壶酒',
           pinyin: 'Huā jiān yī hú jiǔ',
         },
-        english: 'Among the flowers, a jug of wine',
+        english: 'A jug of wine among the blossoms',
       },
       {
         chinese: {
@@ -2367,7 +2367,7 @@ const basePoems: Poem[] = [
           simplified: '汉皇重色思倾国',
           pinyin: 'Hàn huáng zhòng sè sī qīng guó',
         },
-        english: 'The Han emperor, prizing beauty, sought one to topple kingdoms',
+        english: 'The Han emperor sought one beautiful enough to topple kingdoms',
       },
       {
         chinese: {
@@ -2375,7 +2375,7 @@ const basePoems: Poem[] = [
           simplified: '御宇多年求不得',
           pinyin: 'Yù yǔ duō nián qiú bù dé',
         },
-        english: 'Through many years of reign, he sought but could not find',
+        english: 'Through many years of reign, he looked but could not find',
       },
       {
         chinese: {
@@ -2418,7 +2418,7 @@ const basePoems: Poem[] = [
           simplified: '洛阳城里见秋风',
           pinyin: 'Luò yáng chéng lǐ jiàn qiū fēng',
         },
-        english: 'In Luoyang city, I see the autumn wind',
+        english: 'In Luoyang city, I feel the autumn wind',
       },
       {
         chinese: {
@@ -2485,7 +2485,7 @@ const basePoems: Poem[] = [
           simplified: '千磨万击还坚劲',
           pinyin: 'Qiān mó wàn jī hái jiān jìng',
         },
-        english: 'Through countless trials, still standing strong',
+        english: 'Through countless trials, still steadfast',
       },
       {
         chinese: {
@@ -2536,7 +2536,7 @@ const basePoems: Poem[] = [
           simplified: '随风潜入夜',
           pinyin: 'Suí fēng qián rù yè',
         },
-        english: 'Following wind, it steals into night',
+        english: 'Following wind, it slips into night',
       },
       {
         chinese: {
@@ -2568,7 +2568,7 @@ const basePoems: Poem[] = [
           simplified: '晓看红湿处',
           pinyin: 'Xiǎo kàn hóng shī chù',
         },
-        english: 'At dawn, seeing red wet places',
+        english: 'At dawn, the blossoms red and wet',
       },
       {
         chinese: {
@@ -2619,7 +2619,7 @@ const basePoems: Poem[] = [
           simplified: '遥怜小儿女',
           pinyin: 'Yáo lián xiǎo ér nǚ',
         },
-        english: 'From afar I pity our young children',
+        english: 'From afar I think of our young children',
       },
       {
         chinese: {
@@ -2694,7 +2694,7 @@ const basePoems: Poem[] = [
           simplified: '山顶千门次第开',
           pinyin: 'Shān dǐng qiān mén cì dì kāi',
         },
-        english: 'A thousand gates open in sequence on the mountain',
+        english: "On the mountain, a thousand gates open one by one",
       },
       {
         chinese: {
@@ -2710,7 +2710,7 @@ const basePoems: Poem[] = [
           simplified: '无人知是荔枝来',
           pinyin: 'Wú rén zhī shì lì zhī lái',
         },
-        english: "No one knows it's lychees arriving",
+        english: "No one knows fresh lychees have arrived",
       },
     ],
   },
@@ -2737,7 +2737,7 @@ const basePoems: Poem[] = [
           simplified: '君问归期未有期',
           pinyin: 'Jūn wèn guī qī wèi yǒu qī',
         },
-        english: 'You ask my return date—there is no date',
+        english: 'You ask when I will return—I have no date',
       },
       {
         chinese: {
@@ -2753,7 +2753,7 @@ const basePoems: Poem[] = [
           simplified: '何当共剪西窗烛',
           pinyin: 'Hé dāng gòng jiǎn xī chuāng zhú',
         },
-        english: 'When shall we trim the candle by the western window',
+        english: 'When shall we together trim the candle by the western window',
       },
       {
         chinese: {
@@ -2898,7 +2898,7 @@ const basePoems: Poem[] = [
           simplified: '疑是地上霜',
           pinyin: 'Yí shì dì shàng shuāng',
         },
-        english: 'Like frost upon the ground',
+        english: 'I think it is frost upon the ground',
       },
       {
         chinese: {
@@ -2965,7 +2965,7 @@ const basePoems: Poem[] = [
           simplified: '疑是银河落九天',
           pinyin: 'Yí shì yín hé luò jiǔ tiān',
         },
-        english: 'As if the Milky Way falls from the ninth heaven',
+        english: 'As if the Milky Way fell from the ninth heaven',
       },
     ],
   },
@@ -3000,7 +3000,7 @@ const basePoems: Poem[] = [
           simplified: '一岁一枯荣',
           pinyin: 'Yī suì yī kū róng',
         },
-        english: 'Each year withers and flourishes',
+        english: 'Each year it withers, each year it thrives',
       },
       {
         chinese: {
@@ -3024,7 +3024,7 @@ const basePoems: Poem[] = [
           simplified: '远芳侵古道',
           pinyin: 'Yuǎn fāng qīn gǔ dào',
         },
-        english: 'Distant fragrance invades the ancient road',
+        english: 'Distant fragrance spreads to the ancient road',
       },
       {
         chinese: {
@@ -3032,7 +3032,7 @@ const basePoems: Poem[] = [
           simplified: '晴翠接荒城',
           pinyin: 'Qíng cuì jiē huāng chéng',
         },
-        english: 'Sunny green reaches the ruined city',
+        english: 'Bright green reaches the ruined city',
       },
       {
         chinese: {

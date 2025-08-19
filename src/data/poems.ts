@@ -1,6 +1,7 @@
 import { Poem } from '../types/poem';
+import { extraPoems } from './poems.extra';
 
-export const poems: Poem[] = [
+const basePoems: Poem[] = [
   {
     id: 'spring-view',
     title: {
@@ -2192,3 +2193,5 @@ export const poems: Poem[] = [
     ],
   },
 ];
+
+export const poems: Poem[] = [...basePoems, ...extraPoems];

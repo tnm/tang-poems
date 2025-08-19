@@ -646,62 +646,62 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    id: 'night-snow',
-    title: {
-      chinese: {
-        traditional: '夜雪',
-        simplified: '夜雪',
-        pinyin: 'Yè Xuě',
+    "id": "night-snow",
+    "title": {
+      "chinese": {
+        "traditional": "夜雪",
+        "simplified": "夜雪",
+        "pinyin": "Yè Xuě"
       },
-      english: 'Night Snow',
+      "english": "Night Snow"
     },
-    author: {
-      chinese: {
-        traditional: '白居易',
-        simplified: '白居易',
-        pinyin: 'Bái Jūyì',
+    "author": {
+      "chinese": {
+        "traditional": "白居易",
+        "simplified": "白居易",
+        "pinyin": "Bái Jūyì"
       },
-      english: 'Bai Juyi',
+      "english": "Bai Juyi"
     },
-    form: {
-      traditional: '五言絕句',
-      simplified: '五言绝句',
+    "form": {
+      "traditional": "五言絕句",
+      "simplified": "五言绝句"
     },
-    formEnglish: 'Five-character quatrain',
-    verses: [
+    "formEnglish": "Five-character quatrain",
+    "verses": [
       {
-        chinese: {
-          traditional: '已訝衣裳薄',
-          simplified: '已讶衣裳薄',
-          pinyin: 'Yǐ yà yī shang báo',
+        "chinese": {
+          "traditional": "已訝衾枕冷",
+          "simplified": "已讶衾枕冷",
+          "pinyin": "Yǐ yà qīn zhěn lěng"
         },
-        english: 'Already surprised at how thin my clothes are',
+        "english": "Startled that quilt and pillow are cold"
       },
       {
-        chinese: {
-          traditional: '復看燈影斜',
-          simplified: '复看灯影斜',
-          pinyin: 'Fù kàn dēng yǐng xié',
+        "chinese": {
+          "traditional": "復見窗戶明",
+          "simplified": "复见窗户明",
+          "pinyin": "Fù jiàn chuāng hù míng"
         },
-        english: 'Again I watch the lamp shadows slant',
+        "english": "Again I see the window bright"
       },
       {
-        chinese: {
-          traditional: '猶嫌夜來早',
-          simplified: '犹嫌夜来早',
-          pinyin: 'Yóu xián yè lái zǎo',
+        "chinese": {
+          "traditional": "夜深知雪重",
+          "simplified": "夜深知雪重",
+          "pinyin": "Yè shēn zhī xuě zhòng"
         },
-        english: 'Still resenting how early night has come',
+        "english": "Deep in the night I know the snow is heavy"
       },
       {
-        chinese: {
-          traditional: '寂寞梅花落',
-          simplified: '寂寞梅花落',
-          pinyin: 'Jì mò méi huā luò',
+        "chinese": {
+          "traditional": "時聞折竹聲",
+          "simplified": "时闻折竹声",
+          "pinyin": "Shí wén zhé zhú shēng"
         },
-        english: 'Lonely plum blossoms fall',
-      },
-    ],
+        "english": "At times I hear bamboo snapping"
+      }
+    ]
   },
   {
     id: 'qingming-festival',
@@ -2021,7 +2021,7 @@ const basePoems: Poem[] = [
           simplified: '游妓皆蔷薇',
           pinyin: 'Yóu jì jiē qiáng wéi',
         },
-        english: 'Courtesans wander, all in rose-like finery',
+        english: 'Courtesans wander, lush as plum in bloom',
       },
       {
         chinese: {
@@ -2037,7 +2037,7 @@ const basePoems: Poem[] = [
           simplified: '金吾不禁夜',
           pinyin: 'Jīn wú bù jìn yè',
         },
-        english: 'The guards do not forbid the night',
+        english: 'The guards lift the night ban',
       },
       {
         chinese: {
@@ -2045,7 +2045,7 @@ const basePoems: Poem[] = [
           simplified: '玉漏莫相催',
           pinyin: 'Yù lòu mò xiāng cuī',
         },
-        english: 'Let not the jade water clock hurry the hours away',
+        english: 'Jade water-clocks do not hurry us.',
       },
     ],
   },
@@ -2079,7 +2079,7 @@ const basePoems: Poem[] = [
           simplified: '玉漏银壶且莫催',
           pinyin: 'Yù lòu yín hú qiě mò cuī',
         },
-        english: 'Let the jade water clock and silver urn not press the hours',
+        english: 'Jade water-clocks and silver urns—do not press the time;',
       },
       {
         chinese: {
@@ -2095,7 +2095,7 @@ const basePoems: Poem[] = [
           simplified: '谁家见月能闲坐',
           pinyin: 'Shéi jiā jiàn yuè néng xián zuò',
         },
-        english: 'Who, seeing the moon, could remain quietly at home?',
+        english: 'Who, seeing the moon, could stay at home?',
       },
       {
         chinese: {
@@ -2103,7 +2103,7 @@ const basePoems: Poem[] = [
           simplified: '何处闻灯不看来',
           pinyin: 'Hé chù wén dēng bù kàn lái',
         },
-        english: 'Where lanterns glow, who would not go to watch?',
+        english: 'Where lanterns glow, who would not come to see?',
       },
     ],
   },

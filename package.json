@@ -12,9 +12,9 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css,md}\"",
     "preview": "vite preview",
-    "generate-routes": "vite-node --script ./node_modules/@tanstack/router-vite-plugin/assets/generator.js",
     "typecheck": "tsc --noEmit",
-    "export:plaintext": "node scripts/export-plaintext.mjs"
+    "export:plaintext": "node scripts/export-plaintext.mjs",
+    "test:smoke": "node scripts/smoke-test.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
-    "@tanstack/react-router": "^1.99.13",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@typescript-eslint/eslint-plugin": "^8.23.0",
@@ -41,7 +40,6 @@
     "prettier": "^3.4.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.7.3",
-    "vite": "^6.1.0",
-    "vite-node": "^1.6.1"
+    "vite": "^6.1.0"
   }
 }

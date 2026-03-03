@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Poem } from '../types/poem';
 import type { ExtendedCSSProperties } from '../types/styles';
-import { useCharacter } from '../context/CharacterContext';
+import { useCharacter } from '../context/useCharacter';
 
 interface PoemCardProps {
   poem: Poem;

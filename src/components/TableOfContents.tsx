@@ -102,10 +102,7 @@ export default function TableOfContents() {
         style={{
           maxWidth: '1200px',
           margin: '2rem auto',
-          padding: '0 0.5rem',
-          '@media (min-width: 601px)': {
-            padding: '0 2rem',
-          } as ExtendedCSSProperties,
+          padding: '0 clamp(0.5rem, 3vw, 2rem)',
         }}
       >
         {/* Search Controls */}

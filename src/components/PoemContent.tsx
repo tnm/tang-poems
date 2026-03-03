@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Poem } from '../types/poem';
-import { useCharacter } from '../context/CharacterContext';
+import { useCharacter } from '../context/useCharacter';
 
 interface PoemContentProps {
   poem: Poem;
@@ -22,27 +22,33 @@ export default function PoemContent({ poem, showPinyin }: PoemContentProps) {
   }, []);
 
   return (
-    <div style={{ 
-      padding: isMobile ? '1rem' : '2rem', 
-      width: '100%',
-      backgroundColor: 'var(--color-paper)',
-      border: '1px solid var(--color-border)',
-      borderRadius: '8px',
-    }}>
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: isMobile ? 'column' : 'row',
-        justifyContent: 'space-between',
-        gap: isMobile ? '3.5rem' : '4rem'
-      }}>
-        {/* Chinese Text Column */}
-        <div style={{ 
-          flex: 1,
+    <div
+      style={{
+        padding: isMobile ? '1rem' : '2rem',
+        width: '100%',
+        backgroundColor: 'var(--color-paper)',
+        border: '1px solid var(--color-border)',
+        borderRadius: '8px',
+      }}
+    >
+      <div
+        style={{
           display: 'flex',
-          flexDirection: 'column',
-          gap: '2.5rem',
-          alignItems: 'flex-start',
-        }}>
+          flexDirection: isMobile ? 'column' : 'row',
+          justifyContent: 'space-between',
+          gap: isMobile ? '3.5rem' : '4rem',
+        }}
+      >
+        {/* Chinese Text Column */}
+        <div
+          style={{
+            flex: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '2.5rem',
+            alignItems: 'flex-start',
+          }}
+        >
           {poem.verses.map((verse, index) => (
             <div
               key={`chinese-${index}`}
@@ -53,28 +59,32 @@ export default function PoemContent({ poem, showPinyin }: PoemContentProps) {
                 position: 'relative',
               }}
             >
-              <span style={{
-                fontFamily: 'var(--font-chinese)',
-                fontSize: '1.75rem',
-                minHeight: '2.5rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-              }}>
+              <span
+                style={{
+                  fontFamily: 'var(--font-chinese)',
+                  fontSize: '1.75rem',
+                  minHeight: '2.5rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'flex-start',
+                }}
+              >
                 {getText(verse.chinese)}
               </span>
               {showPinyin && verse.chinese.pinyin && (
-                <span style={{
-                  fontFamily: 'var(--font-pinyin)',
-                  fontSize: '0.875rem',
-                  color: 'var(--color-ink)',
-                  opacity: 0.6,
-                  fontWeight: 300,
-                  position: 'absolute',
-                  top: '3rem',
-                  left: 0,
-                  whiteSpace: 'nowrap',
-                }}>
+                <span
+                  style={{
+                    fontFamily: 'var(--font-pinyin)',
+                    fontSize: '0.875rem',
+                    color: 'var(--color-ink)',
+                    opacity: 0.6,
+                    fontWeight: 300,
+                    position: 'absolute',
+                    top: '3rem',
+                    left: 0,
+                    whiteSpace: 'nowrap',
+                  }}
+                >
                   {verse.chinese.pinyin}
                 </span>
               )}
@@ -83,22 +93,26 @@ export default function PoemContent({ poem, showPinyin }: PoemContentProps) {
         </div>
 
         {/* Divider Line */}
-        <div style={{
-          width: isMobile ? '100%' : '1px',
-          height: isMobile ? '1px' : 'auto',
-          backgroundColor: 'var(--color-ink)',
-          opacity: 0.1,
-          alignSelf: 'stretch',
-        }} />
+        <div
+          style={{
+            width: isMobile ? '100%' : '1px',
+            height: isMobile ? '1px' : 'auto',
+            backgroundColor: 'var(--color-ink)',
+            opacity: 0.1,
+            alignSelf: 'stretch',
+          }}
+        />
 
         {/* English Text Column */}
-        <div style={{ 
-          flex: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '2.5rem',
-          alignItems: 'flex-start',
-        }}>
+        <div
+          style={{
+            flex: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '2.5rem',
+            alignItems: 'flex-start',
+          }}
+        >
           {poem.verses.map((verse, index) => (
             <div
               key={`english-${index}`}

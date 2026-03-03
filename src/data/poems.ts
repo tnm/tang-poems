@@ -646,62 +646,62 @@ const basePoems: Poem[] = [
     ],
   },
   {
-    "id": "night-snow",
-    "title": {
-      "chinese": {
-        "traditional": "夜雪",
-        "simplified": "夜雪",
-        "pinyin": "Yè Xuě"
+    id: 'night-snow',
+    title: {
+      chinese: {
+        traditional: '夜雪',
+        simplified: '夜雪',
+        pinyin: 'Yè Xuě',
       },
-      "english": "Night Snow"
+      english: 'Night Snow',
     },
-    "author": {
-      "chinese": {
-        "traditional": "白居易",
-        "simplified": "白居易",
-        "pinyin": "Bái Jūyì"
+    author: {
+      chinese: {
+        traditional: '白居易',
+        simplified: '白居易',
+        pinyin: 'Bái Jūyì',
       },
-      "english": "Bai Juyi"
+      english: 'Bai Juyi',
     },
-    "form": {
-      "traditional": "五言絕句",
-      "simplified": "五言绝句"
+    form: {
+      traditional: '五言絕句',
+      simplified: '五言绝句',
     },
-    "formEnglish": "Five-character quatrain",
-    "verses": [
+    formEnglish: 'Five-character quatrain',
+    verses: [
       {
-        "chinese": {
-          "traditional": "已訝衾枕冷",
-          "simplified": "已讶衾枕冷",
-          "pinyin": "Yǐ yà qīn zhěn lěng"
+        chinese: {
+          traditional: '已訝衾枕冷',
+          simplified: '已讶衾枕冷',
+          pinyin: 'Yǐ yà qīn zhěn lěng',
         },
-        "english": "Startled that quilt and pillow are cold"
+        english: 'Startled that quilt and pillow are cold',
       },
       {
-        "chinese": {
-          "traditional": "復見窗戶明",
-          "simplified": "复见窗户明",
-          "pinyin": "Fù jiàn chuāng hù míng"
+        chinese: {
+          traditional: '復見窗戶明',
+          simplified: '复见窗户明',
+          pinyin: 'Fù jiàn chuāng hù míng',
         },
-        "english": "Again I see the window bright"
+        english: 'Again I see the window bright',
       },
       {
-        "chinese": {
-          "traditional": "夜深知雪重",
-          "simplified": "夜深知雪重",
-          "pinyin": "Yè shēn zhī xuě zhòng"
+        chinese: {
+          traditional: '夜深知雪重',
+          simplified: '夜深知雪重',
+          pinyin: 'Yè shēn zhī xuě zhòng',
         },
-        "english": "Deep in the night I know the snow is heavy"
+        english: 'Deep in the night I know the snow is heavy',
       },
       {
-        "chinese": {
-          "traditional": "時聞折竹聲",
-          "simplified": "时闻折竹声",
-          "pinyin": "Shí wén zhé zhú shēng"
+        chinese: {
+          traditional: '時聞折竹聲',
+          simplified: '时闻折竹声',
+          pinyin: 'Shí wén zhé zhú shēng',
         },
-        "english": "At times I hear bamboo snapping"
-      }
-    ]
+        english: 'At times I hear bamboo snapping',
+      },
+    ],
   },
   {
     id: 'qingming-festival',
@@ -2534,7 +2534,7 @@ const basePoems: Poem[] = [
           simplified: '山顶千门次第开',
           pinyin: 'Shān dǐng qiān mén cì dì kāi',
         },
-        english: "On the mountain, a thousand palace gates open one by one",
+        english: 'On the mountain, a thousand palace gates open one by one',
       },
       {
         chinese: {

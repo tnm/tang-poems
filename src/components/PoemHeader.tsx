@@ -1,6 +1,6 @@
 import { Poem } from '../types/poem';
 import ToggleSwitch from './ToggleSwitch';
-import { useCharacter } from '../context/CharacterContext';
+import { useCharacter } from '../context/useCharacter';
 
 interface PoemHeaderProps {
   poem: Poem;
@@ -62,7 +62,9 @@ export default function PoemHeader({ poem, showPinyin, setShowPinyin }: PoemHead
           <span style={{ margin: '0 0.5rem' }}>·</span>
           <span>{poem.author.english}</span>
           <span style={{ margin: '0 0.5rem' }}>·</span>
-          <span style={{ fontStyle: 'italic' }}>{poem.form ? getText(poem.form) : poem.formEnglish}</span>
+          <span style={{ fontStyle: 'italic' }}>
+            {poem.form ? getText(poem.form) : poem.formEnglish}
+          </span>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { poems } from '../data/poems';
 import PoemContent from './PoemContent';
-import { useCharacter } from '../context/CharacterContext';
+import { useCharacter } from '../context/useCharacter';
 import ToggleSwitch from './ToggleSwitch';
 
 export default function PoemView() {
@@ -51,57 +51,63 @@ export default function PoemView() {
   }
 
   return (
-    <div style={{ 
-      maxWidth: '1200px', 
-      margin: '2rem auto', 
-      padding: isMobile ? '0 0.5rem' : '0 2rem'
-    }}>
-      <div style={{ 
-        marginBottom: '2rem',
-        display: 'flex',
-        flexDirection: isMobile ? 'column' : 'row',
-        justifyContent: 'space-between',
-        alignItems: isMobile ? 'flex-start' : 'center',
-        gap: isMobile ? '1rem' : 0,
-        padding: '0.75rem 0',
-      }}>
-        <div style={{
+    <div
+      style={{
+        maxWidth: '1200px',
+        margin: '2rem auto',
+        padding: isMobile ? '0 0.5rem' : '0 2rem',
+      }}
+    >
+      <div
+        style={{
+          marginBottom: '2rem',
           display: 'flex',
-          alignItems: 'baseline',
-          gap: '1rem',
-          flexWrap: 'wrap',
-        }}>
-          <span style={{ 
-            fontFamily: 'var(--font-chinese)',
-            fontSize: '1.5rem',
-          }}>
+          flexDirection: isMobile ? 'column' : 'row',
+          justifyContent: 'space-between',
+          alignItems: isMobile ? 'flex-start' : 'center',
+          gap: isMobile ? '1rem' : 0,
+          padding: '0.75rem 0',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: '1rem',
+            flexWrap: 'wrap',
+          }}
+        >
+          <span
+            style={{
+              fontFamily: 'var(--font-chinese)',
+              fontSize: '1.5rem',
+            }}
+          >
             {getText(poem.title.chinese)}
           </span>
-          <span style={{ 
-            fontSize: '1.35rem',
-            opacity: 0.85,
-            fontStyle: 'italic',
-          }}>
+          <span
+            style={{
+              fontSize: '1.35rem',
+              opacity: 0.85,
+              fontStyle: 'italic',
+            }}
+          >
             {poem.title.english}
           </span>
         </div>
 
-        <div style={{ 
-          display: 'flex',
-          alignItems: 'center',
-          gap: '1rem',
-          fontSize: '0.95rem',
-          opacity: 0.7,
-          flexWrap: 'wrap',
-        }}>
-          <ToggleSwitch
-            checked={showPinyin}
-            onChange={setShowPinyin}
-            label="Pinyin"
-          />
-          <span style={{ fontFamily: 'var(--font-chinese)' }}>
-            {getText(poem.author.chinese)}
-          </span>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '1rem',
+            fontSize: '0.95rem',
+            opacity: 0.7,
+            flexWrap: 'wrap',
+          }}
+        >
+          <ToggleSwitch checked={showPinyin} onChange={setShowPinyin} label="Pinyin" />
+          <span style={{ fontFamily: 'var(--font-chinese)' }}>{getText(poem.author.chinese)}</span>
           <span>{poem.author.english}</span>
           {!isMobile && (
             <>

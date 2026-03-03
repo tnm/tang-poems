@@ -1,12 +1,11 @@
-import { ExtendedCSSProperties } from '../types/styles';
-
 interface ToggleSwitchProps {
   checked: boolean;
   onChange: (checked: boolean) => void;
-  label: string;
+  label?: string;
+  ariaLabel?: string;
 }
 
-function ToggleSwitch({ checked, onChange, label }: ToggleSwitchProps) {
+function ToggleSwitch({ checked, onChange, label, ariaLabel }: ToggleSwitchProps) {
   return (
     <label
       style={{
@@ -17,30 +16,29 @@ function ToggleSwitch({ checked, onChange, label }: ToggleSwitchProps) {
         userSelect: 'none',
       }}
     >
-      <span
-        style={{
-          fontSize: '0.875rem',
-          color: 'var(--color-ink)',
-          opacity: 0.8,
-        }}
-      >
-        {label}
-      </span>
+      {label && (
+        <span
+          style={{
+            fontSize: '0.875rem',
+            color: 'var(--color-ink)',
+            opacity: 0.8,
+          }}
+        >
+          {label}
+        </span>
+      )}
       <div
         style={{
           position: 'relative',
           width: '36px',
           height: '20px',
-          '@media (max-width: 600px)': {
-            width: '48px',
-            height: '24px',
-          } as ExtendedCSSProperties,
         }}
       >
         <input
           type="checkbox"
           checked={checked}
           onChange={e => onChange(e.target.checked)}
+          aria-label={ariaLabel || label || 'Toggle setting'}
           style={{
             position: 'absolute',
             opacity: 0,
@@ -49,39 +47,17 @@ function ToggleSwitch({ checked, onChange, label }: ToggleSwitchProps) {
           }}
         />
         <span
-          style={
-            {
-              position: 'absolute',
-              cursor: 'pointer',
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              backgroundColor: checked ? 'var(--color-accent)' : '#ccc',
-              transition: '.3s',
-              borderRadius: '34px',
-              '@media (max-width: 600px)': {
-                borderRadius: '40px',
-              },
-              '&:before': {
-                content: '""',
-                position: 'absolute',
-                height: '16px',
-                width: '16px',
-                left: checked ? '2px' : '2px',
-                bottom: '2px',
-                backgroundColor: 'white',
-                transition: '.3s',
-                borderRadius: '50%',
-                transform: checked ? 'translateX(16px)' : 'translateX(0)',
-                '@media (max-width: 600px)': {
-                  height: '20px',
-                  width: '20px',
-                  transform: checked ? 'translateX(24px)' : 'translateX(0)',
-                },
-              },
-            } as ExtendedCSSProperties
-          }
+          style={{
+            position: 'absolute',
+            cursor: 'pointer',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: checked ? 'var(--color-accent)' : '#ccc',
+            transition: '.2s',
+            borderRadius: '34px',
+          }}
         />
       </div>
     </label>
